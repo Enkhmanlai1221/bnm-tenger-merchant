@@ -90,12 +90,12 @@ export function middleware(request: NextRequest) {
   );
 
   // If no token and not an auth-exempt path, redirect to login
-  // if (!accessToken && !isAuthExempt) {
-  //   const currentLocale = getLocale(request);
-  //   return NextResponse.redirect(
-  //     new URL(`/${currentLocale}/login`, request.url),
-  //   );
-  // }
+  if (!accessToken && !isAuthExempt) {
+    const currentLocale = getLocale(request);
+    return NextResponse.redirect(
+      new URL(`/${currentLocale}/login`, request.url),
+    );
+  }
 
   // Check if there is any supported locale in the pathname
   const pathnameHasLocale = locales.some(

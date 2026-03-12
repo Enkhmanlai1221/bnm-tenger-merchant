@@ -1,9 +1,7 @@
 "use client";
 
 import { authApi, authMerchantApi } from "@/apis";
-import AppleButton from "@/components/ui/button/apple";
 import Button from "@/components/ui/button/button";
-import GoogleButton from "@/components/ui/button/google";
 import { Form } from "@/components/ui/form";
 import { PasswordField } from "@/components/ui/form/password-field";
 import { TextField } from "@/components/ui/form/text-field";
@@ -16,6 +14,7 @@ import { emailRegex, phoneRegex } from "@/utils";
 import { errorParse } from "@/utils/error-parse";
 import { message } from "@/utils/message";
 import { Checkbox, cn } from "@heroui/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -102,10 +101,18 @@ export function LoginForm({
 
 
   return (
-    <div className="space-y-3">
-      <h1 className="text-xl font-semibold text-primary-600 text-center">
-        Нэвтрэх
-      </h1>
+    <div className="h-screen space-y-3">
+      <div className="flex flex-row items-center justify-start gap-2">
+        <Image src="/favicon.ico" alt="Tenger BNM" width={64} height={64} />
+        <div>
+          <h1 className="text-xl font-semibold text-primary-600">
+            Нэвтрэх
+          </h1>
+          <p className="text-sm text-gray-500 text-center">
+            Тавтай морилно уу!
+          </p>
+        </div>
+      </div>
       <Form
         initialValues={{
           email: remember || "",
@@ -143,7 +150,7 @@ export function LoginForm({
                   Намайг санах
                 </Checkbox>
                 <Link href={"/forgot"}>
-                  <div className="text- text-primary-400 underline">
+                  <div className="text text-primary-400 underline">
                     Нууц үгээ мартсан уу?
                   </div>
                 </Link>

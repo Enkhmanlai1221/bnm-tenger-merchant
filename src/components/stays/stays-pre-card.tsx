@@ -1,14 +1,11 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { IProperty } from "@/interfaces/property";
-import { IconMapPin, IconStar } from "@tabler/icons-react";
+import { useLanguage } from "@/providers/language";
 import Image from "next/image";
 import Link from "next/link";
-import { useLanguage } from "@/providers/language";
-import { getCurrencies } from "@/actions/currency";
 
 type Props = {
-  payload: IProperty;
+  payload: any;
   totalAmount: number;
 };
 
@@ -18,7 +15,7 @@ export function StaysPreCard({ payload: data, totalAmount }: Props) {
     <Link href={`#`} className="flex flex-row gap-4 -my-2">
       <div className="flex-none h-20 w-28 relative rounded-lg overflow-hidden border border-gray-200">
         <Image
-          src={"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/31/56/23/gobi-mirage-tourist-camp.jpg?w=900&h=500&s=1"}
+          src={data?.mainImage?.url}
           alt={data?.mainImage?.url}
           fill
           className="w-full h-auto object-cover"

@@ -16,8 +16,8 @@ export const MOCK_PROPERTIES: IProperty[] = [
     isAdminActive: true,
     status: PROPERTY_STATUS.CONFIRMED,
     mainImage: {
-      _id: "img_001",
-      url: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=400&h=300&fit=crop",
+      _id: "/camp/img.png1",
+      url: "/camp/img.png",
     } as any,
     level1: { _id: "lvl1_001", name: "Өмнөговь" } as any,
     level2: { _id: "lvl2_001", name: "Даланзадгад" } as any,
@@ -81,7 +81,7 @@ export const MOCK_PROPERTIES: IProperty[] = [
     status: PROPERTY_STATUS.CONFIRMED,
     mainImage: {
       _id: "img_002",
-      url: "https://images.unsplash.com/photo-1487730116645-74489c95b41b?w=400&h=300&fit=crop",
+      url: "/camp/img2.png",
     } as any,
     level1: { _id: "lvl1_001", name: "Өмнөговь" } as any,
     level2: { _id: "lvl2_001", name: "Даланзадгад" } as any,
@@ -145,7 +145,7 @@ export const MOCK_PROPERTIES: IProperty[] = [
     status: PROPERTY_STATUS.PENDING,
     mainImage: {
       _id: "img_003",
-      url: "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=400&h=300&fit=crop",
+      url: "/camp/img3.png",
     } as any,
     level1: { _id: "lvl1_003", name: "Өмнөговь" } as any,
     level2: { _id: "lvl2_003", name: "Даланзадгад" } as any,
@@ -209,7 +209,7 @@ export const MOCK_PROPERTIES: IProperty[] = [
     status: PROPERTY_STATUS.CONFIRMED,
     mainImage: {
       _id: "img_004",
-      url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+      url: "/camp/img3.png",
     } as any,
     level1: { _id: "lvl1_001", name: "Өмнөговь" } as any,
     level2: { _id: "lvl2_001", name: "Даланзадгад" } as any,
@@ -273,7 +273,7 @@ export const MOCK_PROPERTIES: IProperty[] = [
     status: PROPERTY_STATUS.NEW,
     mainImage: {
       _id: "img_005",
-      url: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=400&h=300&fit=crop",
+      url: "/camp/img3.png",
     } as any,
     level1: { _id: "lvl1_001", name: "Өмнөговь" } as any,
     level2: { _id: "lvl2_001", name: "Даланзадгад" } as any,

@@ -52,7 +52,7 @@ export default async function RootLayout({
   return (
     <html lang={lang} className="light" style={{ height: "100%" }}>
       <head>
-        <link rel="shortcut icon" href="/bnm-logo.svg" />
+        <link rel="shortcut icon" href="/tenger.png" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"

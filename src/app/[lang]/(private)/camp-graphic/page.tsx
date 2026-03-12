@@ -5,7 +5,7 @@ import {
   Checkbox,
   Divider,
   Input,
-  Switch
+  Switch,
 } from "@heroui/react";
 import {
   IconCheck,
@@ -15,7 +15,14 @@ import {
   IconTrash,
   IconVectorTriangle,
 } from "@tabler/icons-react";
-import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import React, {
+  memo,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   ReactZoomPanPinchRef,
   TransformComponent,
@@ -232,28 +239,109 @@ const DEFAULT_PATHS: PathData[] = [
   { id: "dff3ecd7-dd39-4a1f-9c09-9f08f573c6ee", points: [{ x: 120, y: 225 }, { x: 120, y: 225 }, { x: 120, y: 225 }, { x: 120, y: 225 }, { x: 120, y: 225 }] },
 ];
 
+type UnitNodeProps = {
+  unit: CampUnit;
+  def: ItemTypeDef;
+  isSelected: boolean;
+  isAdmin: boolean;
+  activeTool: ActiveTool;
+  onPointerDown: (e: React.PointerEvent, unitId: string) => void;
+};
+
+const CampUnitNode = memo(function CampUnitNode({
+  unit,
+  def,
+  isSelected,
+  isAdmin,
+  activeTool,
+  onPointerDown,
+}: UnitNodeProps) {
+  const iconSize = unit.iconSize ?? def.defaultIconSize ?? DEFAULT_UNIT_ICON_SIZE;
+  const foSize = Math.max(16, iconSize + 10);
+  const foHalf = foSize / 2;
+
+  return (
+    <g
+      transform={`translate(${unit.x}, ${unit.y})`}
+      onPointerDown={(e) => onPointerDown(e, unit.id)}
+      style={{
+        cursor: isAdmin && activeTool === "select" ? "grab" : "default",
+        willChange: "transform",
+      }}
+    >
+      <circle
+        r={foSize / 2}
+        fill="white"
+        stroke={isSelected ? "#2563eb" : "#d1d5db"}
+        strokeWidth={isSelected ? 2 : 1}
+      />
+
+      <foreignObject
+        x={-foHalf}
+        y={-foHalf}
+        width={foSize}
+        height={foSize}
+        style={{ pointerEvents: "none" }}
+      >
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100%",
+            width: "100%",
+          }}
+        >
+          <img
+            src={def.icon}
+            width={iconSize}
+            height={iconSize}
+            alt={def.label}
+            draggable={false}
+            style={{ userSelect: "none" }}
+          />
+        </div>
+      </foreignObject>
+
+      <text
+        y={foSize / 2 + 14}
+        textAnchor="middle"
+        fontSize="10"
+        fontWeight="500"
+        fill="#111827"
+      >
+        {unit.label}
+      </text>
+    </g>
+  );
+});
+
 export default function CampMapBuilder() {
   const [units, setUnits] = useState<CampUnit[]>(DEFAULT_UNITS);
   const [paths, setPaths] = useState<PathData[]>(DEFAULT_PATHS);
   const [currentPathPoints, setCurrentPathPoints] = useState<Point[]>([]);
-  const itemTypes = DEFAULT_ITEMS;
-  const itemTypeByKey = useMemo(() => new Map(itemTypes.map((i) => [i.type, i])), [itemTypes]);
-
   const [isAdmin, setIsAdmin] = useState(true);
   const [activeTool, setActiveTool] = useState<ActiveTool>("select");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [selectedPathId, setSelectedPathId] = useState<string | null>(null);
   const [snapToGrid, setSnapToGrid] = useState(true);
   const [showGrid, setShowGrid] = useState(true);
+  const [saveText, setSaveText] = useState("Хадгалах");
+
+  const itemTypes = DEFAULT_ITEMS;
+  const itemTypeByKey = useMemo(
+    () => new Map(itemTypes.map((i) => [i.type, i])),
+    [itemTypes]
+  );
 
   const transformRef = useRef<ReactZoomPanPinchRef | null>(null);
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
 
   const draggingRef = useRef(false);
   const dragIdRef = useRef<string | null>(null);
-  const dragOffsetRef = useRef<{ dx: number; dy: number }>({ dx: 0, dy: 0 });
-  const rafRef = useRef<number | null>(null);
+  const dragOffsetRef = useRef({ dx: 0, dy: 0 });
   const lastPointerRef = useRef<{ clientX: number; clientY: number } | null>(null);
+  const rafRef = useRef<number | null>(null);
 
   const selectedUnit = useMemo(
     () => units.find((u) => u.id === selectedId) || null,
@@ -264,18 +352,13 @@ export default function CampMapBuilder() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
 
-      if (!raw) {
-        setUnits(DEFAULT_UNITS);
-        setPaths(DEFAULT_PATHS);
-        return;
-      }
+      if (!raw) return;
 
       const parsed = JSON.parse(raw);
 
       if (parsed.units?.length) {
         const loaded: CampUnit[] = (parsed.units as Partial<CampUnit>[]).map((u) => {
           const def = (u.type && itemTypeByKey.get(u.type as UnitType)) || undefined;
-
           return {
             id: u.id ?? createId(),
             type: (u.type as UnitType) ?? "ger",
@@ -287,31 +370,17 @@ export default function CampMapBuilder() {
             iconSize: u.iconSize ?? def?.defaultIconSize ?? DEFAULT_UNIT_ICON_SIZE,
           };
         });
-
         setUnits(loaded);
-      } else {
-        setUnits(DEFAULT_UNITS);
       }
 
       if (parsed.paths?.length) {
         setPaths(parsed.paths as PathData[]);
-      } else {
-        setPaths(DEFAULT_PATHS);
       }
     } catch {
       setUnits(DEFAULT_UNITS);
       setPaths(DEFAULT_PATHS);
     }
   }, [itemTypeByKey]);
-
-  const saveLayout = useCallback(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ units, paths }));
-      alert("Хадгалагдлаа!");
-    } catch {
-      alert("Хадгалах үед алдаа гарлаа.");
-    }
-  }, [units, paths]);
 
   const snap = useCallback(
     (val: number) => (snapToGrid ? Math.round(val / GRID_SIZE) * GRID_SIZE : val),
@@ -323,30 +392,49 @@ export default function CampMapBuilder() {
       return { x: 0, y: 0 };
     }
 
-    const { positionX, positionY, scale } = transformRef.current.instance.transformState;
+    const { positionX, positionY, scale } =
+      transformRef.current.instance.transformState;
     const rect = mapContainerRef.current.getBoundingClientRect();
 
-    const x = (clientX - rect.left - positionX) / scale;
-    const y = (clientY - rect.top - positionY) / scale;
-
-    return { x, y };
+    return {
+      x: (clientX - rect.left - positionX) / scale,
+      y: (clientY - rect.top - positionY) / scale,
+    };
   }, []);
 
   const setUnitPosition = useCallback((id: string, x: number, y: number) => {
     const nx = clamp(x, 0, CANVAS_WIDTH);
     const ny = clamp(y, 0, CANVAS_HEIGHT);
 
-    setUnits((prev) =>
-      prev.map((u) => (u.id === id ? { ...u, x: nx, y: ny } : u))
-    );
+    setUnits((prev) => {
+      const idx = prev.findIndex((u) => u.id === id);
+      if (idx === -1) return prev;
+
+      const target = prev[idx];
+      if (target.x === nx && target.y === ny) return prev;
+
+      const next = [...prev];
+      next[idx] = { ...target, x: nx, y: ny };
+      return next;
+    });
   }, []);
+
+  const saveLayout = useCallback(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ units, paths }));
+      setSaveText("Хадгалагдлаа");
+      window.setTimeout(() => setSaveText("Хадгалах"), 1400);
+    } catch {
+      setSaveText("Алдаа гарлаа");
+      window.setTimeout(() => setSaveText("Хадгалах"), 1400);
+    }
+  }, [units, paths]);
 
   const handleBgClick = useCallback(
     (e: React.MouseEvent) => {
       if (activeTool === "path") {
         const { x, y } = getCanvasCoordinates(e.clientX, e.clientY);
-        const p = { x: snap(x), y: snap(y) };
-        setCurrentPathPoints((prev) => [...prev, p]);
+        setCurrentPathPoints((prev) => [...prev, { x: snap(x), y: snap(y) }]);
         return;
       }
 
@@ -361,8 +449,7 @@ export default function CampMapBuilder() {
   const finishPath = useCallback(() => {
     setCurrentPathPoints((prev) => {
       if (prev.length > 1) {
-        const newPath: PathData = { id: createId(), points: prev };
-        setPaths((p) => [...p, newPath]);
+        setPaths((p) => [...p, { id: createId(), points: prev }]);
       }
       return [];
     });
@@ -377,10 +464,7 @@ export default function CampMapBuilder() {
     const ok = window.confirm("Layout-ийг default байдал руу буцаах уу?");
     if (!ok) return;
 
-    try {
-      localStorage.removeItem(STORAGE_KEY);
-    } catch { }
-
+    localStorage.removeItem(STORAGE_KEY);
     setUnits(DEFAULT_UNITS);
     setPaths(DEFAULT_PATHS);
     setCurrentPathPoints([]);
@@ -406,7 +490,6 @@ export default function CampMapBuilder() {
 
       rafRef.current = window.requestAnimationFrame(() => {
         rafRef.current = null;
-
         if (!draggingRef.current || !dragIdRef.current || !lastPointerRef.current) {
           return;
         }
@@ -427,7 +510,7 @@ export default function CampMapBuilder() {
   }, []);
 
   useEffect(() => {
-    window.addEventListener("pointermove", onGlobalPointerMove);
+    window.addEventListener("pointermove", onGlobalPointerMove, { passive: true });
     window.addEventListener("pointerup", stopDragging);
 
     return () => {
@@ -438,51 +521,65 @@ export default function CampMapBuilder() {
 
   useEffect(() => {
     return () => {
-      if (rafRef.current) {
-        window.cancelAnimationFrame(rafRef.current);
-      }
+      if (rafRef.current) window.cancelAnimationFrame(rafRef.current);
     };
   }, []);
 
-  const handleUnitPointerDown = (e: React.PointerEvent, unitId: string) => {
-    if (!isAdmin || activeTool !== "select") return;
+  const handleUnitPointerDown = useCallback(
+    (e: React.PointerEvent, unitId: string) => {
+      if (!isAdmin || activeTool !== "select") return;
 
-    e.stopPropagation();
-    setSelectedId(unitId);
-    setSelectedPathId(null);
+      e.stopPropagation();
+      setSelectedId(unitId);
+      setSelectedPathId(null);
 
-    const { x, y } = getCanvasCoordinates(e.clientX, e.clientY);
-    const unit = units.find((u) => u.id === unitId);
-    if (!unit) return;
+      const { x, y } = getCanvasCoordinates(e.clientX, e.clientY);
+      const unit = units.find((u) => u.id === unitId);
+      if (!unit) return;
 
-    dragOffsetRef.current = { dx: x - unit.x, dy: y - unit.y };
-    draggingRef.current = true;
-    dragIdRef.current = unitId;
-  };
+      dragOffsetRef.current = { dx: x - unit.x, dy: y - unit.y };
+      draggingRef.current = true;
+      dragIdRef.current = unitId;
+    },
+    [activeTool, getCanvasCoordinates, isAdmin, units]
+  );
 
-  const addItem = (typeKey: UnitType) => {
-    const def = itemTypeByKey.get(typeKey);
-    if (!def) return;
+  const addItem = useCallback(
+    (typeKey: UnitType) => {
+      const def = itemTypeByKey.get(typeKey);
+      if (!def) return;
 
-    const id = createId();
+      const id = createId();
 
-    setUnits((prev) => {
-      const newUnit: CampUnit = {
-        id,
-        type: typeKey,
-        x: snap(CANVAS_WIDTH / 2),
-        y: snap(CANVAS_HEIGHT / 2),
-        label: `${prev.length + 1}`,
-        status: "available",
-        price: def.defaultPrice,
-        iconSize: def.defaultIconSize ?? DEFAULT_UNIT_ICON_SIZE,
-      };
-      return [...prev, newUnit];
-    });
+      setUnits((prev) => [
+        ...prev,
+        {
+          id,
+          type: typeKey,
+          x: snap(CANVAS_WIDTH / 2),
+          y: snap(CANVAS_HEIGHT / 2),
+          label: `${prev.length + 1}`,
+          status: "available",
+          price: def.defaultPrice,
+          iconSize: def.defaultIconSize ?? DEFAULT_UNIT_ICON_SIZE,
+        },
+      ]);
 
-    setSelectedId(id);
-    setSelectedPathId(null);
-  };
+      setSelectedId(id);
+      setSelectedPathId(null);
+    },
+    [itemTypeByKey, snap]
+  );
+
+  const updateSelectedUnit = useCallback(
+    (patch: Partial<CampUnit>) => {
+      if (!selectedId) return;
+      setUnits((prev) =>
+        prev.map((u) => (u.id === selectedId ? { ...u, ...patch } : u))
+      );
+    },
+    [selectedId]
+  );
 
   const bringToFront = useCallback((id: string) => {
     setUnits((prev) => {
@@ -501,15 +598,11 @@ export default function CampMapBuilder() {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col">
-      <div className="flex flex-col gap-2 p-2 h-[calc(100vh-48px)]">
-        <div className="border rounded-lg bg-gray-50 px-3 py-2 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2 flex-wrap">
-            <Switch
-              isSelected={isAdmin}
-              onValueChange={setIsAdmin}
-              size="sm"
-            >
+    <div className="h-screen bg-slate-100">
+      <div className="flex h-full flex-col gap-2 p-2">
+        <div className="flex items-center justify-between gap-3 rounded-xl border bg-white px-3 py-2 shadow-sm">
+          <div className="flex flex-wrap items-center gap-2">
+            <Switch isSelected={isAdmin} onValueChange={setIsAdmin} size="sm">
               {isAdmin ? "Админ" : "Харах"}
             </Switch>
 
@@ -519,6 +612,7 @@ export default function CampMapBuilder() {
                 <Button
                   isIconOnly
                   size="sm"
+                  radius="full"
                   variant={activeTool === "select" ? "solid" : "bordered"}
                   onPress={() => setActiveTool("select")}
                 >
@@ -528,6 +622,7 @@ export default function CampMapBuilder() {
                 <Button
                   isIconOnly
                   size="sm"
+                  radius="full"
                   variant={activeTool === "path" ? "solid" : "bordered"}
                   onPress={() => {
                     setActiveTool("path");
@@ -540,48 +635,37 @@ export default function CampMapBuilder() {
                 <Button
                   isIconOnly
                   size="sm"
+                  radius="full"
                   variant={activeTool === "pan" ? "solid" : "bordered"}
                   onPress={() => setActiveTool("pan")}
                 >
                   <IconHandStop size={16} />
                 </Button>
-              </>
-            )}
 
-            {activeTool === "path" && currentPathPoints.length > 0 && (
-              <Button
-                size="sm"
-                color="success"
-                startContent={<IconCheck size={14} />}
-                onPress={finishPath}
-              >
-                Замыг дуусгах
-              </Button>
+                {activeTool === "path" && currentPathPoints.length > 0 && (
+                  <Button
+                    size="sm"
+                    color="success"
+                    startContent={<IconCheck size={14} />}
+                    onPress={finishPath}
+                  >
+                    Зам дуусгах
+                  </Button>
+                )}
+              </>
             )}
           </div>
 
-          <div className="flex items-center gap-3 flex-wrap justify-end">
-            <Checkbox
-              isSelected={snapToGrid}
-              onValueChange={setSnapToGrid}
-              size="sm"
-            >
+          <div className="flex flex-wrap items-center gap-3">
+            <Checkbox isSelected={snapToGrid} onValueChange={setSnapToGrid} size="sm">
               Snap
             </Checkbox>
 
-            <Checkbox
-              isSelected={showGrid}
-              onValueChange={setShowGrid}
-              size="sm"
-            >
+            <Checkbox isSelected={showGrid} onValueChange={setShowGrid} size="sm">
               Grid
             </Checkbox>
 
-            <Button
-              size="sm"
-              variant="bordered"
-              onPress={loadDefaultLayout}
-            >
+            <Button size="sm" variant="bordered" onPress={loadDefaultLayout}>
               Default
             </Button>
 
@@ -602,24 +686,25 @@ export default function CampMapBuilder() {
               startContent={<IconDeviceFloppy size={14} />}
               onPress={saveLayout}
             >
-              Хадгалах
+              {saveText}
             </Button>
           </div>
         </div>
 
-        <div className="flex gap-2 flex-1 overflow-hidden">
+        <div className="flex min-h-0 flex-1 gap-2">
           {isAdmin && (
-            <div className="border rounded-lg bg-white p-3 w-72 shrink-0 overflow-y-auto">
-              <p className="text-sm font-semibold mb-3">Барилга нэмэх</p>
+            <div className="w-72 shrink-0 overflow-y-auto rounded-xl border bg-white p-3 shadow-sm">
+              <p className="mb-3 text-sm font-semibold">Элемент нэмэх</p>
 
               <div className="flex flex-col gap-1">
                 {itemTypes.map((item) => (
-                  <div
+                  <button
                     key={item.type}
-                    className="flex items-center gap-2 cursor-pointer hover:bg-gray-100 p-1.5 rounded"
+                    type="button"
+                    className="flex items-center gap-2 rounded-lg px-2 py-2 text-left transition hover:bg-slate-100"
                     onClick={() => addItem(item.type)}
                   >
-                    <div className="w-6 h-6 rounded flex items-center justify-center bg-gray-100 shrink-0">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-100">
                       <img
                         src={item.icon}
                         width={PALETTE_ICON_SIZE}
@@ -628,19 +713,19 @@ export default function CampMapBuilder() {
                       />
                     </div>
                     <span className="text-sm">{item.label}</span>
-                  </div>
+                  </button>
                 ))}
               </div>
 
               {selectedUnit && (
                 <div className="mt-4">
-                  <Divider className="my-2" />
-                  <p className="text-xs text-gray-500 text-center mb-2">
+                  <Divider className="my-3" />
+                  <p className="mb-2 text-center text-xs text-slate-500">
                     Сонгосон нэгж
                   </p>
 
-                  <div className="flex items-center gap-2 rounded-lg border bg-gray-50 p-2 mb-3">
-                    <div className="w-8 h-8 rounded bg-white border flex items-center justify-center shrink-0">
+                  <div className="mb-3 flex items-center gap-2 rounded-xl border bg-slate-50 p-2">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-lg border bg-white">
                       <img
                         src={TYPE_META[selectedUnit.type].icon}
                         width={16}
@@ -652,8 +737,8 @@ export default function CampMapBuilder() {
                       <p className="text-sm font-medium leading-none">
                         {TYPE_META[selectedUnit.type].label}
                       </p>
-                      <p className="text-xs text-gray-500 mt-1">
-                        Type: {selectedUnit.type}
+                      <p className="mt-1 text-xs text-slate-500">
+                        {selectedUnit.type}
                       </p>
                     </div>
                   </div>
@@ -662,18 +747,10 @@ export default function CampMapBuilder() {
                     size="sm"
                     label="Нэр"
                     value={selectedUnit.label}
-                    onChange={(e) =>
-                      setUnits((prev) =>
-                        prev.map((u) =>
-                          u.id === selectedId
-                            ? { ...u, label: e.target.value }
-                            : u
-                        )
-                      )
-                    }
+                    onChange={(e) => updateSelectedUnit({ label: e.target.value })}
                   />
 
-                  <div className="grid grid-cols-2 gap-2 mt-2">
+                  <div className="mt-2 grid grid-cols-2 gap-2">
                     <Input
                       size="sm"
                       type="number"
@@ -681,16 +758,9 @@ export default function CampMapBuilder() {
                       value={String(selectedUnit.x)}
                       onChange={(e) => {
                         const next = parseInt(e.target.value || "0", 10);
-                        setUnits((prev) =>
-                          prev.map((u) =>
-                            u.id === selectedId
-                              ? {
-                                ...u,
-                                x: clamp(snap(next), 0, CANVAS_WIDTH),
-                              }
-                              : u
-                          )
-                        );
+                        updateSelectedUnit({
+                          x: clamp(snap(next), 0, CANVAS_WIDTH),
+                        });
                       }}
                     />
                     <Input
@@ -700,16 +770,9 @@ export default function CampMapBuilder() {
                       value={String(selectedUnit.y)}
                       onChange={(e) => {
                         const next = parseInt(e.target.value || "0", 10);
-                        setUnits((prev) =>
-                          prev.map((u) =>
-                            u.id === selectedId
-                              ? {
-                                ...u,
-                                y: clamp(snap(next), 0, CANVAS_HEIGHT),
-                              }
-                              : u
-                          )
-                        );
+                        updateSelectedUnit({
+                          y: clamp(snap(next), 0, CANVAS_HEIGHT),
+                        });
                       }}
                     />
                   </div>
@@ -720,14 +783,11 @@ export default function CampMapBuilder() {
                     type="number"
                     label="Үнэ"
                     value={String(selectedUnit.price)}
-                    onChange={(e) => {
-                      const next = parseInt(e.target.value || "0", 10);
-                      setUnits((prev) =>
-                        prev.map((u) =>
-                          u.id === selectedId ? { ...u, price: next } : u
-                        )
-                      );
-                    }}
+                    onChange={(e) =>
+                      updateSelectedUnit({
+                        price: parseInt(e.target.value || "0", 10),
+                      })
+                    }
                   />
 
                   <Input
@@ -743,20 +803,13 @@ export default function CampMapBuilder() {
                         parseInt(e.target.value || `${DEFAULT_UNIT_ICON_SIZE}`, 10) ||
                         DEFAULT_UNIT_ICON_SIZE;
 
-                      setUnits((prev) =>
-                        prev.map((u) =>
-                          u.id === selectedId
-                            ? {
-                              ...u,
-                              iconSize: clamp(next, 8, 128),
-                            }
-                            : u
-                        )
-                      );
+                      updateSelectedUnit({
+                        iconSize: clamp(next, 8, 128),
+                      });
                     }}
                   />
 
-                  <div className="grid grid-cols-2 gap-2 mt-2">
+                  <div className="mt-2 grid grid-cols-2 gap-2">
                     <Button
                       size="sm"
                       variant="bordered"
@@ -779,9 +832,7 @@ export default function CampMapBuilder() {
                     fullWidth
                     className="mt-2"
                     onPress={() => {
-                      setUnits((prev) =>
-                        prev.filter((u) => u.id !== selectedId)
-                      );
+                      setUnits((prev) => prev.filter((u) => u.id !== selectedId));
                       setSelectedId(null);
                     }}
                   >
@@ -792,8 +843,8 @@ export default function CampMapBuilder() {
 
               {selectedPathId && (
                 <div className="mt-4">
-                  <Divider className="my-2" />
-                  <p className="text-xs text-gray-500 text-center mb-2">
+                  <Divider className="my-3" />
+                  <p className="mb-2 text-center text-xs text-slate-500">
                     Сонгосон зам
                   </p>
 
@@ -805,7 +856,7 @@ export default function CampMapBuilder() {
                     startContent={<IconTrash size={14} />}
                     onPress={() => deletePath(selectedPathId)}
                   >
-                    Замыг устгах
+                    Зам устгах
                   </Button>
                 </div>
               )}
@@ -813,8 +864,8 @@ export default function CampMapBuilder() {
           )}
 
           <div
-            className="border rounded-lg flex-1 relative overflow-hidden"
             ref={mapContainerRef}
+            className="relative min-h-0 flex-1 overflow-hidden rounded-xl border bg-white shadow-sm"
           >
             <TransformWrapper
               ref={transformRef}
@@ -824,6 +875,9 @@ export default function CampMapBuilder() {
               maxScale={4}
               initialScale={1}
               centerOnInit
+              smooth={true}
+              wheel={{ step: 0.12 }}
+              doubleClick={{ disabled: true }}
             >
               <TransformComponent wrapperStyle={{ width: "100%", height: "100%" }}>
                 <div
@@ -831,13 +885,13 @@ export default function CampMapBuilder() {
                   style={{
                     width: CANVAS_WIDTH,
                     height: CANVAS_HEIGHT,
-                    backgroundColor: "#f8f9fa",
+                    position: "relative",
+                    backgroundColor: "#f8fafc",
                     backgroundImage: showGrid
                       ? `radial-gradient(#d1d5db 1px, transparent 1px)`
                       : "none",
                     backgroundSize: `${GRID_SIZE}px ${GRID_SIZE}px`,
                     cursor: activeTool === "path" ? "crosshair" : "default",
-                    position: "relative",
                   }}
                 >
                   <svg width="100%" height="100%">
@@ -846,7 +900,7 @@ export default function CampMapBuilder() {
                         key={path.id}
                         points={path.points.map((p) => `${p.x},${p.y}`).join(" ")}
                         fill="none"
-                        stroke={selectedPathId === path.id ? "#228be6" : "#DEE2E6"}
+                        stroke={selectedPathId === path.id ? "#2563eb" : "#d6dbe1"}
                         strokeWidth="8"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -863,7 +917,7 @@ export default function CampMapBuilder() {
                       <polyline
                         points={currentPathPoints.map((p) => `${p.x},${p.y}`).join(" ")}
                         fill="none"
-                        stroke="#fab005"
+                        stroke="#f59e0b"
                         strokeWidth="6"
                         strokeDasharray="10,5"
                         strokeLinecap="round"
@@ -872,69 +926,16 @@ export default function CampMapBuilder() {
 
                     {units.map((unit) => {
                       const def = itemTypeByKey.get(unit.type) || itemTypes[0];
-                      const iconSize =
-                        unit.iconSize ??
-                        def.defaultIconSize ??
-                        DEFAULT_UNIT_ICON_SIZE;
-
-                      const foSize = Math.max(16, iconSize + 10);
-                      const foHalf = foSize / 2;
-                      const isSelected = selectedId === unit.id;
-
                       return (
-                        <g
+                        <CampUnitNode
                           key={unit.id}
-                          transform={`translate(${unit.x}, ${unit.y})`}
-                          onPointerDown={(e) => handleUnitPointerDown(e, unit.id)}
-                          style={{
-                            cursor:
-                              isAdmin && activeTool === "select"
-                                ? "move"
-                                : "default",
-                          }}
-                        >
-                          <circle
-                            r={foSize / 2}
-                            fill="white"
-                            stroke={isSelected ? "#3b82f6" : "#d1d5db"}
-                            strokeWidth={isSelected ? 2 : 1}
-                          />
-
-                          <foreignObject
-                            x={-foHalf}
-                            y={-foHalf}
-                            width={foSize}
-                            height={foSize}
-                            style={{ pointerEvents: "none" }}
-                          >
-                            <div
-                              style={{
-                                display: "flex",
-                                justifyContent: "center",
-                                alignItems: "center",
-                                height: "100%",
-                                width: "100%",
-                              }}
-                            >
-                              <img
-                                src={def.icon}
-                                width={iconSize}
-                                height={iconSize}
-                                alt={def.label}
-                              />
-                            </div>
-                          </foreignObject>
-
-                          <text
-                            y={foSize / 2 + 14}
-                            textAnchor="middle"
-                            fontSize="10"
-                            fontWeight="500"
-                            fill="#111827"
-                          >
-                            {unit.label}
-                          </text>
-                        </g>
+                          unit={unit}
+                          def={def}
+                          isSelected={selectedId === unit.id}
+                          isAdmin={isAdmin}
+                          activeTool={activeTool}
+                          onPointerDown={handleUnitPointerDown}
+                        />
                       );
                     })}
                   </svg>
@@ -944,34 +945,6 @@ export default function CampMapBuilder() {
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col gap-4 p-4">
-        <p className="text-sm font-semibold">Тохиргоо</p>
-
-        <Checkbox isSelected={snapToGrid} onValueChange={setSnapToGrid}>
-          Snap to grid
-        </Checkbox>
-
-        <Checkbox isSelected={showGrid} onValueChange={setShowGrid}>
-          Show grid
-        </Checkbox>
-
-        <div className="flex gap-2 flex-wrap">
-          <Button variant="bordered" onPress={loadDefaultLayout}>
-            Default layout
-          </Button>
-
-          <Button
-            color="danger"
-            variant="light"
-            startContent={<IconTrash size={16} />}
-            className="w-fit"
-            onPress={resetLayout}
-          >
-            Layout reset
-          </Button>
-        </div>
-      </div>
-    </div >
+    </div>
   );
 }

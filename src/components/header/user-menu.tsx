@@ -36,11 +36,6 @@ const UserMenu = () => {
 
   const [userMenuData] = useNavMenu(user);
 
-  const username =
-    user?.firstName || user?.lastName
-      ? `${user?.firstName || ""} ${user?.lastName || ""}`
-      : user?.email;
-
   return (
     <Popover
       className="relative"

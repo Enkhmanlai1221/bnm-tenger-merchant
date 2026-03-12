@@ -13,25 +13,23 @@ interface MetaData {
 export const defaultMetaData: MetaData = {
   title: "Tenger BNM",
   description:
-    "Book authentic Mongolian gers (yurts) for your next adventure. Experience nomadic living with modern comfort. Find and reserve traditional yurts across various locations.",
+    "Tenger BNM | Brave New Mongolia",
   keywords: [
-    "ger rental",
-    "yurt booking",
-    "mongolian yurt",
-    "traditional ger",
-    "nomadic accommodation",
-    "glamping",
-    "unique stays",
-    "eco-friendly accommodation",
-    "mongolian experience",
-    "cultural stay",
+    "Tenger BNM",
+    "Brave New Mongolia",
+    "Tenger",
+    "BNM",
+    "Mongolia",
+    "Mongolian",
+    "Nomadic",
+    "Accommodation",
   ],
-  author: "Ger Book",
-  siteName: "Ger Book",
+  author: "Tenger BNM",
+  siteName: "Tenger BNM",
   type: "website",
   locale: "en",
-  ogImage: "/ger-screen.png",
-  url: "https://gerbook.com",
+  ogImage: "/tenger.png",
+  url: "https://tengerbnm.com",
 };
 
 /**
@@ -79,7 +77,7 @@ export function getYurtMetaData(yurtData: {
     ...defaultMetaData,
     title: `${yurtData.name} | ${yurtData.location} | Ger Book`,
     description: `Stay in ${yurtData.name}, a traditional Mongolian ger in ${yurtData.location}. ${yurtData.description.slice(0, 100)}...`,
-    ogImage: yurtData.image,
+    ogImage: "/tenger.png",
     keywords: [
       ...defaultMetaData.keywords,
       yurtData.location.toLowerCase(),

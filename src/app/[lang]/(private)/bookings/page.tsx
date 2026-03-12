@@ -34,7 +34,10 @@ const mockBookings: any[] = [
     property: {
       _id: "property_001",
       name: "Цомцог гэр 4 ортой",
-      thumbnail: "/images/demo/stay-1.jpg",
+      mainImage: {
+        _id: "img_001",
+        url: "/camp/img.png",
+      },
       location: "Umnugovi, Dalanzadgad",
       rating: 4.8,
     },
@@ -54,7 +57,10 @@ const mockBookings: any[] = [
     property: {
       _id: "property_002",
       name: "Шовгор гэр 2 ортой",
-      thumbnail: "/images/demo/stay-2.jpg",
+      mainImage: {
+        _id: "img_002",
+        url: "/camp/img2.png",
+      },
       location: "Terelj, Ulaanbaatar",
       rating: 4.6,
     },
@@ -74,7 +80,10 @@ const mockBookings: any[] = [
     property: {
       _id: "property_003",
       name: "Шавар байшин",
-      thumbnail: "/images/demo/stay-3.jpg",
+      mainImage: {
+        _id: "img_003",
+        url: "/camp/img3.png",
+      },
       location: "Uvurkhangai, Kharkhorin",
       rating: 4.4,
     },
@@ -94,7 +103,10 @@ const mockBookings: any[] = [
     property: {
       _id: "property_004",
       name: "Хүвсгүл гэр 2 ортой",
-      thumbnail: "/images/demo/stay-4.jpg",
+      mainImage: {
+        _id: "img_004",
+        url: "/camp/img3.png",
+      },
       location: "Khuvsgul, Khatgal",
       rating: 4.9,
     },
@@ -114,7 +126,10 @@ const mockBookings: any[] = [
     property: {
       _id: "property_005",
       name: "Орхоны нутаг гэр 2 ортой",
-      thumbnail: "/images/demo/stay-5.jpg",
+      mainImage: {
+        _id: "img_005",
+        url: "/camp/img3.png",
+      },
       location: "Uvurkhangai, Orkhon Valley",
       rating: 4.7,
     },
@@ -277,12 +292,12 @@ const useHeader = ({
   onClick,
 }: {
   onClick: (key: string, record: any) => void;
-}): ColumnType<IBooking>[] => {
+}): ColumnType<any>[] => {
   const { translate, currencyRate } = useLanguage();
 
   return [
     {
-      title: "Нэр",
+      title: "#",
       name: "name",
       width: 270,
       render: (record, index) => <span>{index}</span>,
@@ -325,12 +340,12 @@ const useHeader = ({
       title: "Захиалгын дугаар",
       name: "id",
       render: (record) => (
-        <div className="flex flex-col gap-y-1">
+        <div className="flex flex-col gap-y-1 min-w-36">
           <div className="flex flex-col justify-between md:flex-row">
-            <span>{record.code}</span>
+            <span className="text-sm text-gray-900">{record.code}</span>
           </div>
           <div className="flex flex-col justify-between md:flex-row">
-            <span className="text-base font-semibold text-gray-900">
+            <span className="text-sm text-gray-900">
               {record.days} Хоног
             </span>
 

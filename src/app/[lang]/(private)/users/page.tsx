@@ -1,5 +1,9 @@
 "use client";
 
+import { TextField } from "@/components/ui/form/text-field";
+import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader } from "@heroui/react";
+import { useState } from "react";
+
 type Staff = {
   id: string;
   firstName: string;
@@ -109,10 +113,12 @@ function getStatusClass(status: Staff["status"]) {
 }
 
 export default function UsersPage() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-slate-50 p-4 md:p-6">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-6 rounded-3xl border border-slate-200 bg-white p-5 shadow-sm md:p-6">
+        <div className="mb-6 rounded-xl border border-slate-200 bg-white p-5 shadow-sm md:p-6">
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <h1 className="text-2xl font-bold tracking-tight text-slate-900">
@@ -124,9 +130,7 @@ export default function UsersPage() {
             </div>
 
             <div className="flex items-center gap-2">
-              <div className="rounded-2xl bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-                Нийт: {STAFFS.length} ажилтан
-              </div>
+              <Button color="primary" variant="solid" onPress={() => setIsOpen(true)}>Ажилтан нэмэх</Button>
             </div>
           </div>
         </div>
@@ -135,7 +139,7 @@ export default function UsersPage() {
           {STAFFS.map((staff) => (
             <div
               key={staff.id}
-              className="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md"
+              className="group overflow-hidden rounded-xl border border-slate-200 bg-white"
             >
               <div className="h-24 bg-gradient-to-r from-slate-100 via-slate-50 to-slate-100" />
 
@@ -165,7 +169,7 @@ export default function UsersPage() {
                   </p>
                 </div>
 
-                <div className="mt-4 space-y-3 rounded-2xl bg-slate-50 p-4">
+                <div className="mt-4 space-y-3 rounded-xl">
                   <div>
                     <p className="text-xs font-medium uppercase tracking-wide text-slate-400">
                       Утас
@@ -214,6 +218,35 @@ export default function UsersPage() {
           ))}
         </div>
       </div>
+      <Modal isOpen={isOpen} onOpenChange={() => setIsOpen(!isOpen)} size="2xl">
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">Ажилтан нэмэх</ModalHeader>
+              <ModalBody>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  <TextField name="firstName" label="Нэр" placeholder="Нэр оруулна уу" />
+                  <TextField name="lastName" label="Овог" placeholder="Овог оруулна уу" />
+                  <TextField name="phone" label="Утас" placeholder="Утас оруулна уу" />
+                  <TextField name="email" label="И-мэйл" placeholder="И-мэйл оруулна уу" />
+                  <TextField name="gender" label="Хүйс" placeholder="Хүйс оруулна уу" />
+                  <TextField name="role" label="Үүрэг" placeholder="Үүрэг оруулна уу" />
+                  <TextField name="duty" label="Тусламж" placeholder="Тусламж оруулна уу" />
+                  <TextField name="startedAt" label="Эхэлсэн огноо" placeholder="Эхэлсэн огноо оруулна уу" />
+                </div>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Цуцлах
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Хадгалах
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
     </div>
   );
 }

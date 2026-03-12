@@ -76,12 +76,6 @@ export function useNavMenu(user: IUser | null) {
         href: "/merchant-bookings",
         icon: IconChecklist,
       },
-      {
-        key: "transactions",
-        name: "Гүйлгээний түүх",
-        href: "/transactions",
-        icon: IconCashRegister,
-      },
     ],
   });
   // }

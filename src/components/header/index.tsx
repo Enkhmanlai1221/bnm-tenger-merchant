@@ -17,6 +17,7 @@ import { usePathname } from "next/navigation";
 import { useSelector } from "react-redux";
 import { PreListNotfication } from "../notfication/pre-list";
 import UserMenu from "./user-menu";
+import Image from "next/image";
 
 export function Header() {
   const { notificationCount } = useSelector(
@@ -71,9 +72,7 @@ export function Header() {
             aria-label="Home"
             className="group flex shrink-0 items-center gap-3 transition-opacity hover:opacity-90"
           >
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-blue-700 text-white shadow-md shadow-blue-500/20">
-              <span className="text-lg font-bold tracking-[0.2em]">T</span>
-            </div>
+            <Image src="/favicon.ico" alt="Tenger BNM" width={52} height={52} />
             <div className="leading-none">
               <p className="text-[17px] font-bold tracking-[0.28em] text-slate-900">
                 TENGER

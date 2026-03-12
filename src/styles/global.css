@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply text-[15px];
+}
+
+.dangerously-set-inner-html p {
+  margin-bottom: 10px;
+}
+
+.mapboxgl-popup-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.mapboxgl-popup-tip {
+  display: none;
+}
+
+@layer base {
+  @media screen and (max-width: 767px) {
+    input,
+    textarea,
+    select {
+      font-size: 16px !important; /* Prevents iOS zoom */
+    }
+  }
+}
+
+apple-pay-button {
+  --apple-pay-button-width: 140px;
+  --apple-pay-button-height: 30px;
+  --apple-pay-button-border-radius: 5px;
+  --apple-pay-button-padding: 5px 0px;
+  width: var(--apple-pay-button-width);
+  height: var(--apple-pay-button-height);
+  border-radius: var(--apple-pay-button-border-radius);
+  padding: var(--apple-pay-button-padding);
+  display: block;
+  font-family: var(--apple-system-font);
+}

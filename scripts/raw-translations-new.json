@@ -1,0 +1,1586 @@
+[
+  {
+    "key": "back_to_register",
+    "text": "Back to register"
+  },
+  {
+    "key": "add_password",
+    "text": "Add Password"
+  },
+  {
+    "key": "continue",
+    "text": "Continue"
+  },
+  {
+    "key": "forgot_password",
+    "text": "Forgot password"
+  },
+  {
+    "key": "have_an_account",
+    "text": "Have an account?"
+  },
+  {
+    "key": "login",
+    "text": "Login"
+  },
+  {
+    "key": "please_enter_otp_code",
+    "text": "Please enter OTP code"
+  },
+  {
+    "key": "sec",
+    "text": "sec"
+  },
+  {
+    "key": "sign_up",
+    "text": "Sign up"
+  },
+  {
+    "key": "address",
+    "text": "Address"
+  },
+  {
+    "key": "start_explore",
+    "text": "Start Explore"
+  },
+  {
+    "key": "merchant_type",
+    "text": "Merchant type"
+  },
+  {
+    "key": "hereglegchiyn_medeelel",
+    "text": "User Information"
+  },
+  {
+    "key": "ta_uuriyn_medeelliyg_65b43f00",
+    "text": "Please fill in your information correctly."
+  },
+  {
+    "key": "not_your_account",
+    "text": "Not your account?"
+  },
+  {
+    "key": "logout",
+    "text": "Logout"
+  },
+  {
+    "key": "block_date",
+    "text": "Block date"
+  },
+  {
+    "key": "cancel_policies",
+    "text": "Cancel Policies"
+  },
+  {
+    "key": "no_variant",
+    "text": "No variant"
+  },
+  {
+    "key": "discounts",
+    "text": "Discounts"
+  },
+  {
+    "key": "or_more_nights_of_booking",
+    "text": "or more nights of booking"
+  },
+  {
+    "key": "first",
+    "text": "First"
+  },
+  {
+    "key": "order",
+    "text": "order"
+  },
+  {
+    "key": "property_information",
+    "text": "Property Information"
+  },
+  {
+    "key": "property_details_and_2b42e214",
+    "text": "Property details and information."
+  },
+  {
+    "key": "created_at",
+    "text": "Created At:"
+  },
+  {
+    "key": "admin_active",
+    "text": "Admin Active:"
+  },
+  {
+    "key": "unpublish",
+    "text": "Unpublish"
+  },
+  {
+    "key": "publish",
+    "text": "Publish"
+  },
+  {
+    "key": "status",
+    "text": "Status:"
+  },
+  {
+    "key": "share_link",
+    "text": "Share link:"
+  },
+  {
+    "key": "reviews",
+    "text": "reviews)"
+  },
+  {
+    "key": "pricing_information",
+    "text": "Pricing Information"
+  },
+  {
+    "key": "pricing_details_and__47b5fa7d",
+    "text": "Pricing details and information."
+  },
+  {
+    "key": "price_control",
+    "text": "Price control"
+  },
+  {
+    "key": "location_information",
+    "text": "Location Information"
+  },
+  {
+    "key": "location_details_and_57b4fc34",
+    "text": "Location details and information."
+  },
+  {
+    "key": "discount_and_cancel_policy",
+    "text": "Discount and Cancel Policy"
+  },
+  {
+    "key": "discount_and_cancel__1f2ca9a7",
+    "text": "Discount and cancel policy details and information."
+  },
+  {
+    "key": "submit",
+    "text": "Submit"
+  },
+  {
+    "key": "close",
+    "text": "Close"
+  },
+  {
+    "key": "back_to_listings",
+    "text": "Back to listings"
+  },
+  {
+    "key": "update_price",
+    "text": "Update price"
+  },
+  {
+    "key": "price_control_for_th_2593ce75",
+    "text": "Price control for the current month."
+  },
+  {
+    "key": "selected_date",
+    "text": "Selected date"
+  },
+  {
+    "key": "bookings",
+    "text": "Bookings"
+  },
+  {
+    "key": "booking_id",
+    "text": ". booking id:"
+  },
+  {
+    "key": "select_a_date_to_vie_507e22df",
+    "text": "Select a date to view the price and availability."
+  },
+  {
+    "key": "previous_month",
+    "text": "Previous month"
+  },
+  {
+    "key": "next_month",
+    "text": "Next month"
+  },
+  {
+    "key": "sold_out",
+    "text": "Sold out"
+  },
+  {
+    "key": "left",
+    "text": "left"
+  },
+  {
+    "key": "blocked",
+    "text": "blocked"
+  },
+  {
+    "key": "booking",
+    "text": ". booking"
+  },
+  {
+    "key": "no_data_available",
+    "text": "No data available"
+  },
+  {
+    "key": "create_listing",
+    "text": "Create Listing"
+  },
+  {
+    "key": "your_listing",
+    "text": "Your Listing ("
+  },
+  {
+    "key": "active",
+    "text": "Active"
+  },
+  {
+    "key": "inactive",
+    "text": "Inactive"
+  },
+  {
+    "key": "loading",
+    "text": "Loading..."
+  },
+  {
+    "key": "back_to_bookings",
+    "text": "Back to bookings"
+  },
+  {
+    "key": "booking_info",
+    "text": "Booking info"
+  },
+  {
+    "key": "guest_info",
+    "text": "Guest info"
+  },
+  {
+    "key": "payment_info",
+    "text": "Payment info"
+  },
+  {
+    "key": "nights",
+    "text": "nights"
+  },
+  {
+    "key": "your_booking",
+    "text": "Your Booking ("
+  },
+  {
+    "key": "transaction_history",
+    "text": "Transaction history"
+  },
+  {
+    "key": "dansny_medeelel",
+    "text": "Account Information"
+  },
+  {
+    "key": "net_worth",
+    "text": "Net worth"
+  },
+  {
+    "key": "total_bookings",
+    "text": "Total Bookings"
+  },
+  {
+    "key": "incoming_profit",
+    "text": "Incoming Profit"
+  },
+  {
+    "key": "order_chart",
+    "text": "Order Chart"
+  },
+  {
+    "key": "profit_chart",
+    "text": "Profit Chart"
+  },
+  {
+    "key": "transactions",
+    "text": "Transactions"
+  },
+  {
+    "key": "total_fee",
+    "text": "Total Fee:"
+  },
+  {
+    "key": "total_profit",
+    "text": "Total Profit:"
+  },
+  {
+    "key": "view_all_transactions",
+    "text": "View all transactions"
+  },
+  {
+    "key": "booking_details",
+    "text": "Booking details"
+  },
+  {
+    "key": "booking_details_and__1435bdd6",
+    "text": "Booking details and payment information."
+  },
+  {
+    "key": "cancel_booking",
+    "text": "Cancel booking"
+  },
+  {
+    "key": "your_note",
+    "text": "Your note:"
+  },
+  {
+    "key": "your_booking_is_cancelled",
+    "text": "Your booking is cancelled"
+  },
+  {
+    "key": "refund_amount",
+    "text": "Refund amount:"
+  },
+  {
+    "key": "check_in_and_check_out_date",
+    "text": "Check-in and check-out date"
+  },
+  {
+    "key": "guest_counts",
+    "text": "Guest counts"
+  },
+  {
+    "key": "guest",
+    "text": "Guest"
+  },
+  {
+    "key": "ger_count",
+    "text": "Ger count"
+  },
+  {
+    "key": "ger",
+    "text": "Ger"
+  },
+  {
+    "key": "total_amount",
+    "text": "Total amount"
+  },
+  {
+    "key": "cancelation_policy",
+    "text": "Cancelation policy"
+  },
+  {
+    "key": "your_booking_has_bee_26d26849",
+    "text": "Your booking has been cancelled"
+  },
+  {
+    "key": "your_booking_has_bee_41101991",
+    "text": "Your booking has been cancelled. Please contact support if you have any questions."
+  },
+  {
+    "key": "your_booking_is_unab_1ffd52fa",
+    "text": "Your booking is unable to pay. Please contact support if you have any questions."
+  },
+  {
+    "key": "payment_methods",
+    "text": "Payment methods"
+  },
+  {
+    "key": "pay_now",
+    "text": "Pay now"
+  },
+  {
+    "key": "view",
+    "text": "View"
+  },
+  {
+    "key": "review_your_booking",
+    "text": "Review your booking"
+  },
+  {
+    "key": "dates",
+    "text": "Dates"
+  },
+  {
+    "key": "gers",
+    "text": "Gers"
+  },
+  {
+    "key": "pay",
+    "text": "Pay"
+  },
+  {
+    "key": "payment",
+    "text": "Payment"
+  },
+  {
+    "key": "tulbur",
+    "text": "Payment"
+  },
+  {
+    "key": "day",
+    "text": "day"
+  },
+  {
+    "key": "hungulult",
+    "text": "Discount"
+  },
+  {
+    "key": "total_usd",
+    "text": "Total (USD)"
+  },
+  {
+    "key": "add_methods",
+    "text": "Add methods"
+  },
+  {
+    "key": "delete",
+    "text": "Delete"
+  },
+  {
+    "key": "make_default",
+    "text": "Make default"
+  },
+  {
+    "key": "all_transaction",
+    "text": "All transaction"
+  },
+  {
+    "key": "usd",
+    "text": "USD"
+  },
+  {
+    "key": "all",
+    "text": "All"
+  },
+  {
+    "key": "new_file",
+    "text": "New file"
+  },
+  {
+    "key": "copy_link",
+    "text": "Copy link"
+  },
+  {
+    "key": "edit_file",
+    "text": "Edit file"
+  },
+  {
+    "key": "delete_file",
+    "text": "Delete file"
+  },
+  {
+    "key": "today",
+    "text": "Today"
+  },
+  {
+    "key": "personal_information",
+    "text": "Personal information"
+  },
+  {
+    "key": "social_account",
+    "text": "Social account"
+  },
+  {
+    "key": "wishlist",
+    "text": "Wishlist"
+  },
+  {
+    "key": "faq",
+    "text": "FAQ"
+  },
+  {
+    "key": "see_more",
+    "text": "See more"
+  },
+  {
+    "key": "share",
+    "text": "Share"
+  },
+  {
+    "key": "saved",
+    "text": "Saved"
+  },
+  {
+    "key": "save",
+    "text": "Save"
+  },
+  {
+    "key": "about_this_place",
+    "text": "About this place"
+  },
+  {
+    "key": "nearby_stays",
+    "text": "Nearby stays"
+  },
+  {
+    "key": "show_more",
+    "text": "Show more"
+  },
+  {
+    "key": "location",
+    "text": "Location"
+  },
+  {
+    "key": "get_direction",
+    "text": "Get direction"
+  },
+  {
+    "key": "report_this_listing",
+    "text": "Report this listing"
+  },
+  {
+    "key": "beautiful_places",
+    "text": "Beautiful places"
+  },
+  {
+    "key": "20_50",
+    "text": "$20 - $50"
+  },
+  {
+    "key": "new",
+    "text": "New"
+  },
+  {
+    "key": "beds",
+    "text": "Beds"
+  },
+  {
+    "key": "show_all",
+    "text": "Show all"
+  },
+  {
+    "key": "house_rules",
+    "text": "House rules"
+  },
+  {
+    "key": "you_ll_be_stayung_in_2f40a2e7",
+    "text": "You'll be stayung in someone's home, so please treat it with care and respect."
+  },
+  {
+    "key": "similar_places",
+    "text": "Similar places"
+  },
+  {
+    "key": "share_this_place",
+    "text": "Share this place"
+  },
+  {
+    "key": "favorite",
+    "text": "Favorite"
+  },
+  {
+    "key": "staying_hotels",
+    "text": "Staying hotels"
+  },
+  {
+    "key": "travel_route",
+    "text": "Travel route"
+  },
+  {
+    "key": "processing_login",
+    "text": "Processing login..."
+  },
+  {
+    "key": "error_loading_language_data",
+    "text": "Error loading language data:"
+  },
+  {
+    "key": "page_not_found",
+    "text": "Page Not Found"
+  },
+  {
+    "key": "the_page_you_re_look_4a4d3a0a",
+    "text": "The page you're looking for doesn't exist or has been moved."
+  },
+  {
+    "key": "go_back_home",
+    "text": "Go back home"
+  },
+  {
+    "key": "opening_gerbook",
+    "text": "Opening Gerbook..."
+  },
+  {
+    "key": "if_nothing_happens_p_644ea5c4",
+    "text": "If nothing happens, please download our app"
+  },
+  {
+    "key": "download_the_app_for_1389053d",
+    "text": "Download the app for more fast booking"
+  },
+  {
+    "key": "app_promotion_text",
+    "text": "App promotion text"
+  },
+  {
+    "key": "get_it_on",
+    "text": "GET IT ON"
+  },
+  {
+    "key": "google_play",
+    "text": "Google Play"
+  },
+  {
+    "key": "download_on_the",
+    "text": "Download on the"
+  },
+  {
+    "key": "app_store",
+    "text": "App Store"
+  },
+  {
+    "key": "log_in",
+    "text": "Log in"
+  },
+  {
+    "key": "or",
+    "text": "OR"
+  },
+  {
+    "key": "dont_have_an_account",
+    "text": "Dont have an account?"
+  },
+  {
+    "key": "create_account",
+    "text": "Create account"
+  },
+  {
+    "key": "per_night",
+    "text": "Per night"
+  },
+  {
+    "key": "how_many_guests",
+    "text": "How many guests"
+  },
+  {
+    "key": "guest_count",
+    "text": "Guest count"
+  },
+  {
+    "key": "book_now",
+    "text": "Book now"
+  },
+  {
+    "key": "pending",
+    "text": "Pending"
+  },
+  {
+    "key": "paid",
+    "text": "Paid"
+  },
+  {
+    "key": "cancelled",
+    "text": "Cancelled"
+  },
+  {
+    "key": "per_day",
+    "text": "Per day"
+  },
+  {
+    "key": "guests",
+    "text": "Guests"
+  },
+  {
+    "key": "check_in",
+    "text": "Check In"
+  },
+  {
+    "key": "check_out",
+    "text": "Check Out"
+  },
+  {
+    "key": "discount",
+    "text": "Discount"
+  },
+  {
+    "key": "zahialga_tsutslah",
+    "text": "Cancel Booking"
+  },
+  {
+    "key": "special_price",
+    "text": "Special price"
+  },
+  {
+    "key": "sub_total",
+    "text": "Sub total"
+  },
+  {
+    "key": "reservation_unavaila_2d7db625",
+    "text": "Reservation Unavailable for Selected Dates"
+  },
+  {
+    "key": "we_apologize_but_the_4c2ff5db",
+    "text": "We apologize, but the property is not available for booking during your selected dates. Please select different dates or contact our customer support team for assistance."
+  },
+  {
+    "key": "start_date",
+    "text": "Start date:"
+  },
+  {
+    "key": "end_date",
+    "text": "End date:"
+  },
+  {
+    "key": "clear",
+    "text": "Clear"
+  },
+  {
+    "key": "when",
+    "text": "When"
+  },
+  {
+    "key": "add_dates",
+    "text": "Add dates"
+  },
+  {
+    "key": "this_weekend",
+    "text": "This weekend"
+  },
+  {
+    "key": "next_week",
+    "text": "Next week"
+  },
+  {
+    "key": "list",
+    "text": "List"
+  },
+  {
+    "key": "close_panel",
+    "text": "Close panel"
+  },
+  {
+    "key": "az",
+    "text": "AZ"
+  },
+  {
+    "key": "od",
+    "text": "OD"
+  },
+  {
+    "key": "holboo_barih",
+    "text": "Contact Us"
+  },
+  {
+    "key": "hayag_suhbaatar_duur_60f89336",
+    "text": "Хаяг: Сүхбаатар дүүрэг 1-р хороо 5-р хороолол 14б байр 52 тоот"
+  },
+  {
+    "key": "utas",
+    "text": "Phone:"
+  },
+  {
+    "key": "tsagiyn_huvaar",
+    "text": "Working Hours:"
+  },
+  {
+    "key": "davaa_baasan",
+    "text": "Monday-Friday"
+  },
+  {
+    "key": "09_00_17_00",
+    "text": "09:00 - 17:00"
+  },
+  {
+    "key": "tsahim_shuudan",
+    "text": "Email:"
+  },
+  {
+    "key": "support_azod_mn",
+    "text": "support@azod.mn"
+  },
+  {
+    "key": "soshial_holboosuud",
+    "text": "Social Links:"
+  },
+  {
+    "key": "frequently_asked_questions",
+    "text": "Frequently Asked Questions"
+  },
+  {
+    "key": "tag",
+    "text": "Tag:"
+  },
+  {
+    "key": "place_offers",
+    "text": "Place Offers:"
+  },
+  {
+    "key": "tags",
+    "text": "Tags"
+  },
+  {
+    "key": "clear_all",
+    "text": "Clear all"
+  },
+  {
+    "key": "filter",
+    "text": "Filter"
+  },
+  {
+    "key": "filters",
+    "text": "Filters"
+  },
+  {
+    "key": "home",
+    "text": "Home"
+  },
+  {
+    "key": "stays",
+    "text": "Stays"
+  },
+  {
+    "key": "gerbooking_gmail_com",
+    "text": "gerbooking@gmail.com"
+  },
+  {
+    "key": "about_us",
+    "text": "About us"
+  },
+  {
+    "key": "privacy_policy",
+    "text": "Privacy policy"
+  },
+  {
+    "key": "terms_of_service",
+    "text": "Terms of service"
+  },
+  {
+    "key": "notifications",
+    "text": "Notifications"
+  },
+  {
+    "key": "odoogoor_medegdel_ba_154a6107",
+    "text": "No notifications available."
+  },
+  {
+    "key": "host_as",
+    "text": "Host as"
+  },
+  {
+    "key": "show_all_photos",
+    "text": "Show all photos"
+  },
+  {
+    "key": "unuudriyn_oroh_zahialga",
+    "text": "Today's Check-in Bookings"
+  },
+  {
+    "key": "120_unelgee",
+    "text": "120 үнэлгээ"
+  },
+  {
+    "key": "bolih",
+    "text": "Cancel"
+  },
+  {
+    "key": "hadgalah",
+    "text": "Save"
+  },
+  {
+    "key": "zasah",
+    "text": "Edit"
+  },
+  {
+    "key": "niyt_orlogo",
+    "text": "Total Income"
+  },
+  {
+    "key": "12_zahialga",
+    "text": "12 захиалга"
+  },
+  {
+    "key": "payment_successful",
+    "text": "Payment successful"
+  },
+  {
+    "key": "your_payment_has_bee_43fefd6e",
+    "text": "Your payment has been successfully processed."
+  },
+  {
+    "key": "check_payment",
+    "text": "Check Payment"
+  },
+  {
+    "key": "cancel",
+    "text": "Cancel"
+  },
+  {
+    "key": "no_payment_methods_found",
+    "text": "No payment methods found"
+  },
+  {
+    "key": "canceled",
+    "text": "Canceled"
+  },
+  {
+    "key": "placesdetail",
+    "text": "PlacesDetail"
+  },
+  {
+    "key": "change_email",
+    "text": "Change email"
+  },
+  {
+    "key": "update_password",
+    "text": "Update password"
+  },
+  {
+    "key": "password",
+    "text": "Password"
+  },
+  {
+    "key": "change_password",
+    "text": "Change Password"
+  },
+  {
+    "key": "last_changed_6_months_ago",
+    "text": "Last changed 6 months ago"
+  },
+  {
+    "key": "account",
+    "text": "Account"
+  },
+  {
+    "key": "deactive_account",
+    "text": "Deactive account"
+  },
+  {
+    "key": "you_can_delete_your__6c67bfc5",
+    "text": "You can delete your account from our database."
+  },
+  {
+    "key": "verify_email",
+    "text": "Verify email"
+  },
+  {
+    "key": "change_passwords",
+    "text": "Change passwords"
+  },
+  {
+    "key": "facebook",
+    "text": "Facebook"
+  },
+  {
+    "key": "https",
+    "text": "https://"
+  },
+  {
+    "key": "viber",
+    "text": "Viber"
+  },
+  {
+    "key": "telegram",
+    "text": "Telegram"
+  },
+  {
+    "key": "line",
+    "text": "Line"
+  },
+  {
+    "key": "whatsapp",
+    "text": "WhatsApp"
+  },
+  {
+    "key": "please_enter_the_tha_7d2946af",
+    "text": "Please enter the that we send to your email. Please check your email."
+  },
+  {
+    "key": "verify_your_password",
+    "text": "Verify your password"
+  },
+  {
+    "key": "for_your_security_pl_4f7b5790",
+    "text": "For your security, please re-enter your password to continue."
+  },
+  {
+    "key": "save_a_review",
+    "text": "Save a review"
+  },
+  {
+    "key": "overall_rating",
+    "text": "Overall rating"
+  },
+  {
+    "key": "out_of_5_stars",
+    "text": "out of 5 stars"
+  },
+  {
+    "key": "based_on",
+    "text": "Based on"
+  },
+  {
+    "key": "star_reviews",
+    "text": "star reviews"
+  },
+  {
+    "key": "date",
+    "text": "Date"
+  },
+  {
+    "key": "pick_a_date",
+    "text": "Pick a Date"
+  },
+  {
+    "key": "number_of_people",
+    "text": "Number of people"
+  },
+  {
+    "key": "price_range",
+    "text": "Price range"
+  },
+  {
+    "key": "min",
+    "text": "Min:"
+  },
+  {
+    "key": "currency",
+    "text": "Currency"
+  },
+  {
+    "key": "ars",
+    "text": "ARS"
+  },
+  {
+    "key": "eur",
+    "text": "EUR"
+  },
+  {
+    "key": "booking_options",
+    "text": "Booking options"
+  },
+  {
+    "key": "amenties",
+    "text": "Amenties"
+  },
+  {
+    "key": "who_s_coming",
+    "text": "Who's coming?"
+  },
+  {
+    "key": "count_of_guests",
+    "text": "Count of guests"
+  },
+  {
+    "key": "who",
+    "text": "Who"
+  },
+  {
+    "key": "add_guests",
+    "text": "Add guests"
+  },
+  {
+    "key": "search",
+    "text": "Search"
+  },
+  {
+    "key": "to",
+    "text": "to"
+  },
+  {
+    "key": "days_before_the_start_date",
+    "text": "days before the start date"
+  },
+  {
+    "key": "created_by",
+    "text": "Created by"
+  },
+  {
+    "key": "individual",
+    "text": "Individual"
+  },
+  {
+    "key": "organization",
+    "text": "Organization"
+  },
+  {
+    "key": "please_enter_your_email",
+    "text": "Please enter your email"
+  },
+  {
+    "key": "phone",
+    "text": "Phone:"
+  },
+  {
+    "key": "email",
+    "text": "Email:"
+  },
+  {
+    "key": "city",
+    "text": "City:"
+  },
+  {
+    "key": "state",
+    "text": "State:"
+  },
+  {
+    "key": "country",
+    "text": "Country:"
+  },
+  {
+    "key": "postal_code",
+    "text": "Postal Code:"
+  },
+  {
+    "key": "confirmed",
+    "text": "Confirmed"
+  },
+  {
+    "key": "ilerts_oldsonguy",
+    "text": "No results found."
+  },
+  {
+    "key": "developed_by_goodtech_soft",
+    "text": "Developed by Goodtech Soft"
+  },
+  {
+    "key": "previous",
+    "text": "Previous"
+  },
+  {
+    "key": "next",
+    "text": "Next"
+  },
+  {
+    "key": "no_results_found",
+    "text": "No results found"
+  },
+  {
+    "key": "umnuh",
+    "text": "Previous"
+  },
+  {
+    "key": "daraah",
+    "text": "Next"
+  },
+  {
+    "key": "showing",
+    "text": "Showing"
+  },
+  {
+    "key": "of",
+    "text": "of"
+  },
+  {
+    "key": "results",
+    "text": "results"
+  },
+  {
+    "key": "traveler",
+    "text": "Traveler"
+  },
+  {
+    "key": "merchant",
+    "text": "Merchant"
+  },
+  {
+    "key": "please_enter_your_password",
+    "text": "Please enter your password"
+  },
+  {
+    "key": "please_verify_your_password",
+    "text": "Please verify your password"
+  },
+  {
+    "key": "passwords_must_match",
+    "text": "Passwords must match"
+  },
+  {
+    "key": "please_enter_your_old_password",
+    "text": "Please enter your old password"
+  },
+  {
+    "key": "please_enter_your_new_password",
+    "text": "Please enter your new password"
+  },
+  {
+    "key": "resend",
+    "text": "Resend"
+  },
+  {
+    "key": "this_field_is_required",
+    "text": "This field is required!"
+  },
+  {
+    "key": "register_successfully",
+    "text": "Register successfully!"
+  },
+  {
+    "key": "organization_registration_number",
+    "text": "Organization registration number"
+  },
+  {
+    "key": "registration_number",
+    "text": "Registration number"
+  },
+  {
+    "key": "please_enter_your_organization_registration_number",
+    "text": "Please enter your organization registration number"
+  },
+  {
+    "key": "please_enter_your_registration_number",
+    "text": "Please enter your registration number"
+  },
+  {
+    "key": "please_enter_your_information_correctly",
+    "text": "Please enter your information correctly."
+  },
+  {
+    "key": "first_name",
+    "text": "First name"
+  },
+  {
+    "key": "last_name",
+    "text": "Last name"
+  },
+  {
+    "key": "birth_date",
+    "text": "Birth date"
+  },
+  {
+    "key": "gender",
+    "text": "Gender"
+  },
+  {
+    "key": "male",
+    "text": "Male"
+  },
+  {
+    "key": "female",
+    "text": "Female"
+  },
+  {
+    "key": "please_enter_your_first_name",
+    "text": "Please enter your first name"
+  },
+  {
+    "key": "please_enter_your_last_name",
+    "text": "Please enter your last name"
+  },
+  {
+    "key": "please_enter_your_phone_number",
+    "text": "Please enter your phone number"
+  },
+  {
+    "key": "please_select_your_gender",
+    "text": "Please select your gender"
+  },
+  {
+    "key": "blocked_date_updated_successfully",
+    "text": "Blocked date updated successfully"
+  },
+  {
+    "key": "blocked_quantity",
+    "text": "Blocked quantity"
+  },
+  {
+    "key": "cancel_policy_variant",
+    "text": "Cancel Policy variant"
+  },
+  {
+    "key": "select_an_variant",
+    "text": "Select an variant"
+  },
+  {
+    "key": "cancel_policy_variant_percentage",
+    "text": "Cancel Policy variant (percentage)"
+  },
+  {
+    "key": "cancel_policy_variant_fixed",
+    "text": "Cancel Policy variant (fixed)"
+  },
+  {
+    "key": "cancel_policy_variant_free",
+    "text": "Cancel Policy variant (free)"
+  },
+  {
+    "key": "rate",
+    "text": "Rate"
+  },
+  {
+    "key": "listing_created_successfully",
+    "text": "Listing created successfully"
+  },
+  {
+    "key": "publish_listing",
+    "text": "Publish listing"
+  },
+  {
+    "key": "are_you_sure_you_want_to_publish_this_listing",
+    "text": "Are you sure you want to publish this listing?"
+  },
+  {
+    "key": "listing_published_successfully",
+    "text": "Listing published successfully"
+  },
+  {
+    "key": "property_details_and_information",
+    "text": "Property details and information."
+  },
+  {
+    "key": "published",
+    "text": "Published"
+  },
+  {
+    "key": "draft",
+    "text": "Draft"
+  },
+  {
+    "key": "images",
+    "text": "Images"
+  },
+  {
+    "key": "name",
+    "text": "Name"
+  },
+  {
+    "key": "description",
+    "text": "Description"
+  },
+  {
+    "key": "pricing_details_and_information",
+    "text": "Pricing details and information."
+  },
+  {
+    "key": "price_per_night",
+    "text": "Price (per night)"
+  },
+  {
+    "key": "price",
+    "text": "Price"
+  },
+  {
+    "key": "quantity",
+    "text": "Quantity"
+  },
+  {
+    "key": "person_capacity",
+    "text": "Person capacity"
+  },
+  {
+    "key": "check_in_time",
+    "text": "Check In Time"
+  },
+  {
+    "key": "check_out_time",
+    "text": "Check Out Time"
+  },
+  {
+    "key": "location_details_and_information",
+    "text": "Location details and information."
+  },
+  {
+    "key": "level_1",
+    "text": "Level 1"
+  },
+  {
+    "key": "level_2",
+    "text": "Level 2"
+  },
+  {
+    "key": "level_3",
+    "text": "Level 3"
+  },
+  {
+    "key": "additional_information",
+    "text": "Additional Information"
+  },
+  {
+    "key": "please_select_location",
+    "text": "Please select location"
+  },
+  {
+    "key": "discount_and_cancel_policy_details_and_information",
+    "text": "Discount and cancel policy details and information."
+  },
+  {
+    "key": "action",
+    "text": "Action"
+  },
+  {
+    "key": "your_listings",
+    "text": "Your Listings"
+  },
+  {
+    "key": "is_admin_active",
+    "text": "Is Admin Active"
+  },
+  {
+    "key": "is_active",
+    "text": "Booked Date"
+  },
+  {
+    "key": "booked_date",
+    "text": "Booked Date"
+  },
+  {
+    "key": "total_rates",
+    "text": "Total Rates"
+  },
+  {
+    "key": "saves",
+    "text": "Saves"
+  },
+  {
+    "key": "stay_dates",
+    "text": "Stay Dates"
+  },
+  {
+    "key": "total_price",
+    "text": "Total Price"
+  },
+  {
+    "key": "booked_time",
+    "text": "Booked Time"
+  },
+  {
+    "key": "your_bookings",
+    "text": "Your Bookings"
+  },
+  {
+    "key": "date_range",
+    "text": "Date Range"
+  },
+  {
+    "key": "password_updated_successfully",
+    "text": "Password updated successfully"
+  },
+  {
+    "key": "please_verify_your_confirm_password",
+    "text": "Please verify your confirm password"
+  },
+  {
+    "key": "current_password",
+    "text": "Current password"
+  },
+  {
+    "key": "new_password",
+    "text": "New password"
+  },
+  {
+    "key": "confirm_password",
+    "text": "Confirm password"
+  },
+  {
+    "key": "deactivating_your_account_is_temporary",
+    "text": "Deactivating your account is temporary. Your account and main profile will be deactivated, and your name and photos will be removed from most things youve done."
+  },
+  {
+    "key": "profile_updated_successfully",
+    "text": "Profile updated successfully"
+  },
+  {
+    "key": "order_created_successfully",
+    "text": "Order created successfully"
+  },
+  {
+    "key": "are_you_sure_you_want_to_cancel_this_booking",
+    "text": "Are you sure you want to cancel this booking?"
+  },
+  {
+    "key": "booking_details_and_payment_information",
+    "text": "Booking details and payment information."
+  },
+  {
+    "key": "cancel_request_in_progress",
+    "text": "Cancel request in progress"
+  },
+  {
+    "key": "please_wait_for_the_cancellation_request_to_be_processed",
+    "text": "Please wait for the cancellation request to be processed."
+  },
+  {
+    "key": "write_a_review",
+    "text": "Write a review"
+  },
+  {
+    "key": "your_booking_has_been_cancelled",
+    "text": "Your booking has been cancelled"
+  },
+  {
+    "key": "your_booking_has_been_cancelled_please_contact_support_if_you_have_any_questions",
+    "text": "Your booking has been cancelled. Please contact support if you have any questions."
+  },
+  {
+    "key": "your_booking_is_unable_to_pay_please_contact_support_if_you_have_any_questions",
+    "text": "Your booking is unable to pay. Please contact support if you have any questions."
+  },
+  {
+    "key": "payment_successful_description",
+    "text": "Your payment has been successfully processed."
+  },
+  {
+    "key": "login_security",
+    "text": "Login & Security"
+  },
+  {
+    "key": "beautiful_place",
+    "text": "Beautiful place"
+  },
+  {
+    "key": "no_data",
+    "text": "No data"
+  },
+  {
+    "key": "where",
+    "text": "Where"
+  },
+  {
+    "key": "search_for_places",
+    "text": "Search for places"
+  },
+  {
+    "key": "select_dates",
+    "text": "Select dates"
+  },
+  {
+    "key": "show",
+    "text": "Show"
+  },
+  {
+    "key": "no_stays_available",
+    "text": "No stays available"
+  },
+  {
+    "key": "removed_from_wishlist",
+    "text": "Removed from wishlist"
+  },
+  {
+    "key": "added_to_wishlist",
+    "text": "Added to wishlist"
+  },
+  {
+    "key": "unauthorized_error",
+    "text": "Unauthorized error"
+  },
+  {
+    "key": "you_ll_be_staying_in_someone_s_home_so_please_treat",
+    "text": "You&apos;ll be stayung in someone&apos;s home, so please treat"
+  },
+  {
+    "key": "reservation_unavailable_for_selected_dates",
+    "text": "Reservation Unavailable for Selected Dates"
+  },
+  {
+    "key": "we_apologize_but_the_property_is_not_available",
+    "text": "We apologize, but the property is not available for booking during your selected dates. Please select different dates or contact our customer support team for assistance."
+  },
+  {
+    "key": "if_nothing_happens",
+    "text": "If nothing happens, please download our app"
+  },
+  {
+    "key": "the_page_you_re_looking_for_doesn_t_exist_or_has_been_moved",
+    "text": "The page you&apos;re looking for doesn&apos;t exist or has been moved."
+  },
+  {
+    "key": "download_the_app_for_more_fast_booking",
+    "text": "Download the app for more fast booking"
+  },
+  {
+    "key": "listings",
+    "text": "Listings"
+  },
+  {
+    "key": "reservations",
+    "text": "Reservations"
+  },
+  {
+    "key": "please_enter_the_otp_that_we_send_to_your_email",
+    "text": "Please enter the OTP that we send to your email. Please check your email."
+  },
+  {
+    "key": "for_your_security_please_re_enter_your_password_to_continue",
+    "text": "For your security, please re-enter your password to continue."
+  }
+]

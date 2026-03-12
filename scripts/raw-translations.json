@@ -1,0 +1,3059 @@
+[
+  {
+    "key": "back_to_register",
+    "text": "Back to register",
+    "search": "Back to register",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/change-password/page.tsx:83",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/otp-verify/page.tsx:103"
+    ]
+  },
+  {
+    "key": "add_password",
+    "text": "Add Password",
+    "search": "Add Password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/change-password/page.tsx:86"
+    ]
+  },
+  {
+    "key": "continue",
+    "text": "Continue",
+    "search": "Continue",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/change-password/page.tsx:123",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/forgot/page.tsx:97",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/otp-verify/page.tsx:162",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/register/page.tsx:96",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/merchant-type.tsx:151",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/personal-form.tsx:114",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-email-form.tsx:54"
+    ]
+  },
+  {
+    "key": "forgot_password",
+    "text": "Forgot password",
+    "search": "Forgot password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/forgot/page.tsx:72",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:113"
+    ]
+  },
+  {
+    "key": "have_an_account",
+    "text": "Have an account?",
+    "search": "Have an account?",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/forgot/page.tsx:105",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/register/page.tsx:104"
+    ]
+  },
+  {
+    "key": "login",
+    "text": "Login",
+    "search": "Login",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/forgot/page.tsx:107",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/register/page.tsx:106",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:90",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/mobile-navigation.tsx:135"
+    ]
+  },
+  {
+    "key": "please_enter_otp_code",
+    "text": "Please enter OTP code",
+    "search": "Please enter OTP code",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/otp-verify/page.tsx:105"
+    ]
+  },
+  {
+    "key": "sec",
+    "text": "sec",
+    "search": "sec",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/otp-verify/page.tsx:136"
+    ]
+  },
+  {
+    "key": "sign_up",
+    "text": "Sign up",
+    "search": "Sign up",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/register/page.tsx:73",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/index.tsx:105",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/mobile-navigation.tsx:124"
+    ]
+  },
+  {
+    "key": "address",
+    "text": "Address",
+    "search": "Address",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/address-form.tsx:38"
+    ]
+  },
+  {
+    "key": "start_explore",
+    "text": "Start Explore",
+    "search": "Start Explore",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/address-form.tsx:80"
+    ]
+  },
+  {
+    "key": "merchant_type",
+    "text": "Merchant type",
+    "search": "Merchant type",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/merchant-type.tsx:48",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/merchant-type.tsx:59"
+    ]
+  },
+  {
+    "key": "hereglegchiyn_medeelel",
+    "text": "Хэрэглэгчийн мэдээлэл",
+    "search": "Хэрэглэгчийн мэдээлэл",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/page.tsx:99"
+    ]
+  },
+  {
+    "key": "ta_uuriyn_medeelliyg_65b43f00",
+    "text": "Та өөрийн мэдээллийг үнэн зөв бөглөнө үү.",
+    "search": "Та өөрийн мэдээллийг үнэн зөв бөглөнө үү.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/page.tsx:100"
+    ]
+  },
+  {
+    "key": "not_your_account",
+    "text": "Not your account?",
+    "search": "Not your account?",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/page.tsx:161"
+    ]
+  },
+  {
+    "key": "logout",
+    "text": "Logout",
+    "search": "Logout",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(auth)/registration/page.tsx:168",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/user-menu.tsx:201"
+    ]
+  },
+  {
+    "key": "block_date",
+    "text": "Block date",
+    "search": "Block date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/block-date-form.tsx:64"
+    ]
+  },
+  {
+    "key": "cancel_policies",
+    "text": "Cancel Policies",
+    "search": "Cancel Policies",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/cancel-policy-picker.tsx:61"
+    ]
+  },
+  {
+    "key": "no_variant",
+    "text": "No variant",
+    "search": "No variant",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/cancel-policy-picker.tsx:114"
+    ]
+  },
+  {
+    "key": "discounts",
+    "text": "Discounts",
+    "search": "Discounts",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/discount-picker.tsx:62"
+    ]
+  },
+  {
+    "key": "or_more_nights_of_booking",
+    "text": "or more nights of booking",
+    "search": "or more nights of booking",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/discount-picker.tsx:91",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/discount/discount-shower.tsx:18"
+    ]
+  },
+  {
+    "key": "first",
+    "text": "First",
+    "search": "First",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/discount-picker.tsx:94",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/discount/discount-shower.tsx:21"
+    ]
+  },
+  {
+    "key": "order",
+    "text": "order",
+    "search": "order",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/discount-picker.tsx:94",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/discount/discount-shower.tsx:21"
+    ]
+  },
+  {
+    "key": "property_information",
+    "text": "Property Information",
+    "search": "Property Information",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:230"
+    ]
+  },
+  {
+    "key": "property_details_and_2b42e214",
+    "text": "Property details and information.",
+    "search": "Property details and information.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:233"
+    ]
+  },
+  {
+    "key": "created_at",
+    "text": "Created At:",
+    "search": "Created At:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:240"
+    ]
+  },
+  {
+    "key": "admin_active",
+    "text": "Admin Active:",
+    "search": "Admin Active:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:246"
+    ]
+  },
+  {
+    "key": "unpublish",
+    "text": "Unpublish",
+    "search": "Unpublish",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:257"
+    ]
+  },
+  {
+    "key": "publish",
+    "text": "Publish",
+    "search": "Publish",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:264"
+    ]
+  },
+  {
+    "key": "status",
+    "text": "Status:",
+    "search": "Status:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:271"
+    ]
+  },
+  {
+    "key": "share_link",
+    "text": "Share link:",
+    "search": "Share link:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:274"
+    ]
+  },
+  {
+    "key": "reviews",
+    "text": "reviews)",
+    "search": "reviews)",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:287",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:93",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stays-card.tsx:80",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stays-pre-card.tsx:35"
+    ]
+  },
+  {
+    "key": "pricing_information",
+    "text": "Pricing Information",
+    "search": "Pricing Information",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:355"
+    ]
+  },
+  {
+    "key": "pricing_details_and__47b5fa7d",
+    "text": "Pricing details and information.",
+    "search": "Pricing details and information.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:358"
+    ]
+  },
+  {
+    "key": "price_control",
+    "text": "Price control",
+    "search": "Price control",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:364",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:519",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:159",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:276"
+    ]
+  },
+  {
+    "key": "location_information",
+    "text": "Location Information",
+    "search": "Location Information",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:408"
+    ]
+  },
+  {
+    "key": "location_details_and_57b4fc34",
+    "text": "Location details and information.",
+    "search": "Location details and information.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:411"
+    ]
+  },
+  {
+    "key": "discount_and_cancel_policy",
+    "text": "Discount and Cancel Policy",
+    "search": "Discount and Cancel Policy",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:474"
+    ]
+  },
+  {
+    "key": "discount_and_cancel__1f2ca9a7",
+    "text": "Discount and cancel policy details and information.",
+    "search": "Discount and cancel policy details and information.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:477"
+    ]
+  },
+  {
+    "key": "submit",
+    "text": "Submit",
+    "search": "Submit",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:505"
+    ]
+  },
+  {
+    "key": "close",
+    "text": "Close",
+    "search": "Close",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/form.tsx:530",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/hero-images/hero-images-grid.tsx:228"
+    ]
+  },
+  {
+    "key": "back_to_listings",
+    "text": "Back to listings",
+    "search": "Back to listings",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/page.tsx:33",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/create/page.tsx:19"
+    ]
+  },
+  {
+    "key": "update_price",
+    "text": "Update price",
+    "search": "Update price",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-form.tsx:64"
+    ]
+  },
+  {
+    "key": "price_control_for_th_2593ce75",
+    "text": "Price control for the current month.",
+    "search": "Price control for the current month.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:162",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:279"
+    ]
+  },
+  {
+    "key": "selected_date",
+    "text": "Selected date",
+    "search": "Selected date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:172",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:291"
+    ]
+  },
+  {
+    "key": "bookings",
+    "text": "Bookings",
+    "search": "Bookings",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:185",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:303",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/page.tsx:20"
+    ]
+  },
+  {
+    "key": "booking_id",
+    "text": ". booking id:",
+    "search": ". booking id:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:196"
+    ]
+  },
+  {
+    "key": "select_a_date_to_vie_507e22df",
+    "text": "Select a date to view the price and availability.",
+    "search": "Select a date to view the price and availability.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view copy.tsx:239",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:359"
+    ]
+  },
+  {
+    "key": "previous_month",
+    "text": "Previous month",
+    "search": "Previous month",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:104"
+    ]
+  },
+  {
+    "key": "next_month",
+    "text": "Next month",
+    "search": "Next month",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:119",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:171",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:354"
+    ]
+  },
+  {
+    "key": "sold_out",
+    "text": "Sold out",
+    "search": "Sold out",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:191"
+    ]
+  },
+  {
+    "key": "left",
+    "text": "left",
+    "search": "left",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:208"
+    ]
+  },
+  {
+    "key": "blocked",
+    "text": "blocked",
+    "search": "blocked",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:223"
+    ]
+  },
+  {
+    "key": "bookings",
+    "text": "bookings",
+    "search": "bookings",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:241",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:69"
+    ]
+  },
+  {
+    "key": "booking",
+    "text": ". booking",
+    "search": ". booking",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/[id]/price-date-view.tsx:315"
+    ]
+  },
+  {
+    "key": "no_data_available",
+    "text": "No data available",
+    "search": "No data available",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:67",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/page.tsx:63"
+    ]
+  },
+  {
+    "key": "create_listing",
+    "text": "Create Listing",
+    "search": "Create Listing",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:73",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:90"
+    ]
+  },
+  {
+    "key": "your_listing",
+    "text": "Your Listing (",
+    "search": "Your Listing (",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:82"
+    ]
+  },
+
+  {
+    "key": "active",
+    "text": "Active",
+    "search": "Active",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:128",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:140"
+    ]
+  },
+  {
+    "key": "inactive",
+    "text": "Inactive",
+    "search": "Inactive",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:129",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/listings/page.tsx:141"
+    ]
+  },
+  {
+    "key": "loading",
+    "text": "Loading...",
+    "search": "Loading...",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:37",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/about-us/page.tsx:19",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/privacy-policy/page.tsx:19",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/terms-of-service/page.tsx:19"
+    ]
+  },
+  {
+    "key": "back_to_bookings",
+    "text": "Back to bookings",
+    "search": "Back to bookings",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:47",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:93"
+    ]
+  },
+  {
+    "key": "booking_id",
+    "text": "Booking id:",
+    "search": "Booking id:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:50"
+    ]
+  },
+  {
+    "key": "booking_info",
+    "text": "Booking info",
+    "search": "Booking info",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:54"
+    ]
+  },
+  {
+    "key": "guest_info",
+    "text": "Guest info",
+    "search": "Guest info",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:64"
+    ]
+  },
+  {
+    "key": "payment_info",
+    "text": "Payment info",
+    "search": "Payment info",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:68"
+    ]
+  },
+  {
+    "key": "nights",
+    "text": "nights",
+    "search": "nights",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/[id]/page.tsx:117",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/page.tsx:169",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/page.tsx:68",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:29",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:102",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:112",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:292"
+    ]
+  },
+
+  {
+    "key": "your_booking",
+    "text": "Your Booking (",
+    "search": "Your Booking (",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-bookings/page.tsx:70"
+    ]
+  },
+  {
+    "key": "transaction_history",
+    "text": "Transaction history",
+    "search": "Transaction history",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-payment/page.tsx:14",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/page.tsx:68"
+    ]
+  },
+  {
+    "key": "dansny_medeelel",
+    "text": "Дансны мэдээлэл",
+    "search": "Дансны мэдээлэл",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/merchant-payment/page.tsx:18"
+    ]
+  },
+  {
+    "key": "net_worth",
+    "text": "Net worth",
+    "search": "Net worth",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:53"
+    ]
+  },
+  {
+    "key": "total_bookings",
+    "text": "Total Bookings",
+    "search": "Total Bookings",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:64"
+    ]
+  },
+  {
+    "key": "incoming_profit",
+    "text": "Incoming Profit",
+    "search": "Incoming Profit",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:75"
+    ]
+  },
+  {
+    "key": "order_chart",
+    "text": "Order Chart",
+    "search": "Order Chart",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:89"
+    ]
+  },
+  {
+    "key": "profit_chart",
+    "text": "Profit Chart",
+    "search": "Profit Chart",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:97"
+    ]
+  },
+  {
+    "key": "transactions",
+    "text": "Transactions",
+    "search": "Transactions",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:105",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/transactions/page.tsx:8"
+    ]
+  },
+  {
+    "key": "total_fee",
+    "text": "Total Fee:",
+    "search": "Total Fee:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:121",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/transaction/list.tsx:91"
+    ]
+  },
+  {
+    "key": "total_profit",
+    "text": "Total Profit:",
+    "search": "Total Profit:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:129",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/transaction/list.tsx:97"
+    ]
+  },
+  {
+    "key": "view_all_transactions",
+    "text": "View all transactions",
+    "search": "View all transactions",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(merchant)/profile/page.tsx:148"
+    ]
+  },
+  {
+    "key": "booking_details",
+    "text": "Booking details",
+    "search": "Booking details",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:99"
+    ]
+  },
+  {
+    "key": "booking_details_and__1435bdd6",
+    "text": "Booking details and payment information.",
+    "search": "Booking details and payment information.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:102"
+    ]
+  },
+  {
+    "key": "cancel_booking",
+    "text": "Cancel booking",
+    "search": "Cancel booking",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:110",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:115"
+    ]
+  },
+  {
+    "key": "your_note",
+    "text": "Your note:",
+    "search": "Your note:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:155"
+    ]
+  },
+  {
+    "key": "your_booking_is_cancelled",
+    "text": "Your booking is cancelled",
+    "search": "Your booking is cancelled",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:163",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:312"
+    ]
+  },
+  {
+    "key": "refund_amount",
+    "text": "Refund amount:",
+    "search": "Refund amount:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:170"
+    ]
+  },
+  {
+    "key": "booking_id",
+    "text": "Booking ID",
+    "search": "Booking ID",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:188",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:62"
+    ]
+  },
+  {
+    "key": "check_in_and_check_out_date",
+    "text": "Check-in and check-out date",
+    "search": "Check-in and check-out date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:201"
+    ]
+  },
+  {
+    "key": "guest_counts",
+    "text": "Guest counts",
+    "search": "Guest counts",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:210"
+    ]
+  },
+  {
+    "key": "guest",
+    "text": "Guest",
+    "search": "Guest",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:214",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/book-calculation.tsx:93",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/guest-picker.tsx:19"
+    ]
+  },
+  {
+    "key": "ger_count",
+    "text": "Ger count",
+    "search": "Ger count",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:218"
+    ]
+  },
+  {
+    "key": "ger",
+    "text": "Ger",
+    "search": "Ger",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:222",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:37",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:110"
+    ]
+  },
+  {
+    "key": "created_at",
+    "text": "Created at",
+    "search": "Created at",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:226"
+    ]
+  },
+  {
+    "key": "total_amount",
+    "text": "Total amount",
+    "search": "Total amount",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:234"
+    ]
+  },
+  {
+    "key": "cancelation_policy",
+    "text": "Cancelation policy",
+    "search": "Cancelation policy",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:246",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:245"
+    ]
+  },
+  {
+    "key": "your_booking_has_bee_26d26849",
+    "text": "Your booking has been cancelled",
+    "search": "Your booking has been cancelled",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:329"
+    ]
+  },
+  {
+    "key": "your_booking_has_bee_41101991",
+    "text": "Your booking has been cancelled. Please\n                                    contact support if you have any questions.",
+    "search": "Your booking has been cancelled. Please\n                                    contact support if you have any questions.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:333"
+    ]
+  },
+  {
+    "key": "your_booking_is_unab_1ffd52fa",
+    "text": "Your booking is unable to pay. Please contact\n                                support if you have any questions.",
+    "search": "Your booking is unable to pay. Please contact\n                                support if you have any questions.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:359"
+    ]
+  },
+  {
+    "key": "payment_methods",
+    "text": "Payment methods",
+    "search": "Payment methods",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:400",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:96",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/page.tsx:17"
+    ]
+  },
+  {
+    "key": "pay_now",
+    "text": "Pay now",
+    "search": "Pay now",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/[id]/page.tsx:416"
+    ]
+  },
+  {
+    "key": "view",
+    "text": "View",
+    "search": "View",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/bookings/page.tsx:111"
+    ]
+  },
+  {
+    "key": "review_your_booking",
+    "text": "Review your booking",
+    "search": "Review your booking",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:58"
+    ]
+  },
+  {
+    "key": "dates",
+    "text": "Dates",
+    "search": "Dates",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:73"
+    ]
+  },
+  {
+    "key": "gers",
+    "text": "Gers",
+    "search": "Gers",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:80"
+    ]
+  },
+  {
+    "key": "pay",
+    "text": "Pay",
+    "search": "Pay",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:133"
+    ]
+  },
+  {
+    "key": "payment",
+    "text": "Payment",
+    "search": "Payment",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:142",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:32"
+    ]
+  },
+  {
+    "key": "tulbur",
+    "text": "Төлбөр",
+    "search": "Төлбөр",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:145"
+    ]
+  },
+  {
+    "key": "day",
+    "text": "day",
+    "search": "day",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:149",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:36"
+    ]
+  },
+
+  {
+    "key": "hungulult",
+    "text": "Хөнгөлөлт",
+    "search": "Хөнгөлөлт",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:166"
+    ]
+  },
+  {
+    "key": "total_usd",
+    "text": "Total (USD)",
+    "search": "Total (USD)",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/pay/[id]/page.tsx:176",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:60",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:89",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:162"
+    ]
+  },
+  {
+    "key": "add_methods",
+    "text": "Add methods",
+    "search": "Add methods",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/page.tsx:45"
+    ]
+  },
+  {
+    "key": "delete",
+    "text": "Delete",
+    "search": "Delete",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/page.tsx:54"
+    ]
+  },
+  {
+    "key": "make_default",
+    "text": "Make default",
+    "search": "Make default",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/page.tsx:59"
+    ]
+  },
+  {
+    "key": "all_transaction",
+    "text": "All transaction",
+    "search": "All transaction",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:64"
+    ]
+  },
+  {
+    "key": "usd",
+    "text": "USD",
+    "search": "USD",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:71",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:138",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:167"
+    ]
+  },
+  {
+    "key": "all",
+    "text": "All",
+    "search": "All",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:82",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:34",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:57",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/propery-tags.tsx:72",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:83"
+    ]
+  },
+  {
+    "key": "new_file",
+    "text": "New file",
+    "search": "New file",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:88",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:63",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:89"
+    ]
+  },
+  {
+    "key": "copy_link",
+    "text": "Copy link",
+    "search": "Copy link",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:89",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:64",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:90"
+    ]
+  },
+  {
+    "key": "edit_file",
+    "text": "Edit file",
+    "search": "Edit file",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:90",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:65",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:91"
+    ]
+  },
+  {
+    "key": "delete_file",
+    "text": "Delete file",
+    "search": "Delete file",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:91",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:70",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:92"
+    ]
+  },
+  {
+    "key": "today",
+    "text": "Today",
+    "search": "Today",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/payment/payment-history.tsx:98",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-payment-history.tsx:71"
+    ]
+  },
+  {
+    "key": "personal_information",
+    "text": "Personal information",
+    "search": "Personal information",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/user-profile/page.tsx:19"
+    ]
+  },
+  {
+    "key": "social_account",
+    "text": "Social account",
+    "search": "Social account",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/user-profile/page.tsx:27"
+    ]
+  },
+  {
+    "key": "wishlist",
+    "text": "Wishlist",
+    "search": "Wishlist",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(private)/wishlist/page.tsx:21"
+    ]
+  },
+  {
+    "key": "faq",
+    "text": "FAQ",
+    "search": "FAQ",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/faq/page.tsx:13",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:101"
+    ]
+  },
+  {
+    "key": "see_more",
+    "text": "See more",
+    "search": "See more",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/page.tsx:38",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/home/place-home-list.tsx:64"
+    ]
+  },
+  {
+    "key": "share",
+    "text": "Share",
+    "search": "Share",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:68",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:108",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:42"
+    ]
+  },
+  {
+    "key": "saved",
+    "text": "Saved",
+    "search": "Saved",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:86",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:126"
+    ]
+  },
+  {
+    "key": "save",
+    "text": "Save",
+    "search": "Save",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:93",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:133",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/profile-form.tsx:130",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:161"
+    ]
+  },
+  {
+    "key": "about_this_place",
+    "text": "About this place",
+    "search": "About this place",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:110",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:197",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:67"
+    ]
+  },
+  {
+    "key": "nearby_stays",
+    "text": "Nearby stays",
+    "search": "Nearby stays",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:118"
+    ]
+  },
+  {
+    "key": "show_more",
+    "text": "Show more",
+    "search": "Show more",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:134",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:74",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:100"
+    ]
+  },
+  {
+    "key": "location",
+    "text": "Location",
+    "search": "Location",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:148",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:280",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:64"
+    ]
+  },
+  {
+    "key": "get_direction",
+    "text": "Get direction",
+    "search": "Get direction",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:153"
+    ]
+  },
+  {
+    "key": "report_this_listing",
+    "text": "Report this listing",
+    "search": "Report this listing",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/[id]/page.tsx:172",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:129"
+    ]
+  },
+  {
+    "key": "beautiful_places",
+    "text": "Beautiful places",
+    "search": "Beautiful places",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/places/page.tsx:8",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:314",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:29",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/home/place-home-list.tsx:54"
+    ]
+  },
+  {
+    "key": "20_50",
+    "text": "$20 - $50",
+    "search": "$20 - $50",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/search/page.tsx:42"
+    ]
+  },
+  {
+    "key": "new",
+    "text": "New",
+    "search": "New",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:97",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stay-status.tsx:16",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stays-card.tsx:83"
+    ]
+  },
+  {
+    "key": "beds",
+    "text": "Beds",
+    "search": "Beds",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:168"
+    ]
+  },
+  {
+    "key": "reviews",
+    "text": "Reviews",
+    "search": "Reviews",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:217"
+    ]
+  },
+  {
+    "key": "show_all",
+    "text": "Show all",
+    "search": "Show all",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:233"
+    ]
+  },
+  {
+    "key": "reviews",
+    "text": "reviews",
+    "search": "reviews",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:234",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/all-reviews-modal.tsx:79"
+    ]
+  },
+  {
+    "key": "house_rules",
+    "text": "House rules",
+    "search": "House rules",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:256"
+    ]
+  },
+  {
+    "key": "you_ll_be_stayung_in_2f40a2e7",
+    "text": "You'll be stayung in someone's home, so please treat\n                it with care and respect.",
+    "search": "You'll be stayung in someone's home, so please treat\n                it with care and respect.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:259"
+    ]
+  },
+  {
+    "key": "similar_places",
+    "text": "Similar places",
+    "search": "Similar places",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:301"
+    ]
+  },
+  {
+    "key": "share_this_place",
+    "text": "Share this place",
+    "search": "Share this place",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/stays/[id]/page.tsx:345"
+    ]
+  },
+  {
+    "key": "favorite",
+    "text": "Favorite",
+    "search": "Favorite",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:48"
+    ]
+  },
+  {
+    "key": "staying_hotels",
+    "text": "Staying hotels",
+    "search": "Staying hotels",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:84"
+    ]
+  },
+  {
+    "key": "beautiful_places",
+    "text": "Beautiful places:",
+    "search": "Beautiful places:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/[id]/page.tsx:111"
+    ]
+  },
+  {
+    "key": "travel_route",
+    "text": "Travel route",
+    "search": "Travel route",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/(public)/travel-routes/page.tsx:13",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:32"
+    ]
+  },
+  {
+    "key": "processing_login",
+    "text": "Processing login...",
+    "search": "Processing login...",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/google/page.tsx:23"
+    ]
+  },
+  {
+    "key": "error_loading_language_data",
+    "text": "Error loading language data:",
+    "search": "Error loading language data:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/layout.tsx:81"
+    ]
+  },
+  {
+    "key": "page_not_found",
+    "text": "Page Not Found",
+    "search": "Page Not Found",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/not-found.tsx:8"
+    ]
+  },
+  {
+    "key": "the_page_you_re_look_4a4d3a0a",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "search": "The page you're looking for doesn't exist or has been moved.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/not-found.tsx:11"
+    ]
+  },
+  {
+    "key": "go_back_home",
+    "text": "Go back home",
+    "search": "Go back home",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/not-found.tsx:17"
+    ]
+  },
+  {
+    "key": "opening_gerbook",
+    "text": "Opening Gerbook...",
+    "search": "Opening Gerbook...",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/shared/[[...obj]]/page.tsx:43"
+    ]
+  },
+  {
+    "key": "if_nothing_happens_p_644ea5c4",
+    "text": "If nothing happens, please download our app",
+    "search": "If nothing happens, please download our app",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/app/[lang]/shared/[[...obj]]/page.tsx:44"
+    ]
+  },
+  {
+    "key": "download_the_app_for_1389053d",
+    "text": "Download the app for more fast booking",
+    "search": "Download the app for more fast booking",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:11"
+    ]
+  },
+  {
+    "key": "app_promotion_text",
+    "text": "App promotion text",
+    "search": "App promotion text",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:14"
+    ]
+  },
+  {
+    "key": "get_it_on",
+    "text": "GET IT ON",
+    "search": "GET IT ON",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:20"
+    ]
+  },
+  {
+    "key": "google_play",
+    "text": "Google Play",
+    "search": "Google Play",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:21"
+    ]
+  },
+  {
+    "key": "download_on_the",
+    "text": "Download on the",
+    "search": "Download on the",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:29"
+    ]
+  },
+  {
+    "key": "app_store",
+    "text": "App Store",
+    "search": "App Store",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/app-promotion/app-promotion.tsx:32"
+    ]
+  },
+  {
+    "key": "log_in",
+    "text": "Log in",
+    "search": "Log in",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:126"
+    ]
+  },
+  {
+    "key": "or",
+    "text": "OR",
+    "search": "OR",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:131"
+    ]
+  },
+  {
+    "key": "dont_have_an_account",
+    "text": "Dont have an account?",
+    "search": "Dont have an account?",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:141"
+    ]
+  },
+  {
+    "key": "create_account",
+    "text": "Create account",
+    "search": "Create account",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/authorize/login-form.tsx:143"
+    ]
+  },
+  {
+    "key": "per_night",
+    "text": "Per night",
+    "search": "Per night",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/book-calculation.tsx:71",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stays-card.tsx:98"
+    ]
+  },
+  {
+    "key": "how_many_guests",
+    "text": "How many guests",
+    "search": "How many guests",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/book-calculation.tsx:89"
+    ]
+  },
+  {
+    "key": "guest_count",
+    "text": "Guest count",
+    "search": "Guest count",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/book-calculation.tsx:94"
+    ]
+  },
+  {
+    "key": "book_now",
+    "text": "Book now",
+    "search": "Book now",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/book-calculation.tsx:170"
+    ]
+  },
+  {
+    "key": "pending",
+    "text": "Pending",
+    "search": "Pending",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/booking-status.tsx:10",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-status.tsx:11",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stay-status.tsx:11"
+    ]
+  },
+  {
+    "key": "paid",
+    "text": "Paid",
+    "search": "Paid",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/booking-status.tsx:15",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-status.tsx:16"
+    ]
+  },
+  {
+    "key": "cancelled",
+    "text": "Cancelled",
+    "search": "Cancelled",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/booking-status.tsx:20"
+    ]
+  },
+  {
+    "key": "per_day",
+    "text": "Per day",
+    "search": "Per day",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:14"
+    ]
+  },
+  {
+    "key": "guests",
+    "text": "Guests",
+    "search": "Guests",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:17"
+    ]
+  },
+  {
+    "key": "check_in",
+    "text": "Check In",
+    "search": "Check In",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:22"
+    ]
+  },
+  {
+    "key": "check_out",
+    "text": "Check Out",
+    "search": "Check Out",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:26"
+    ]
+  },
+  {
+    "key": "guests",
+    "text": "Guests:",
+    "search": "Guests:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:43"
+    ]
+  },
+  {
+    "key": "discount",
+    "text": "Discount",
+    "search": "Discount",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:51",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:68",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:141"
+    ]
+  },
+  {
+    "key": "zahialga_tsutslah",
+    "text": "Захиалга цуцлах",
+    "search": "Захиалга цуцлах",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/payment-info.tsx:69"
+    ]
+  },
+  {
+    "key": "special_price",
+    "text": "Special price",
+    "search": "Special price",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:45",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:118"
+    ]
+  },
+  {
+    "key": "sub_total",
+    "text": "Sub total",
+    "search": "Sub total",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail-view.tsx:61",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:134"
+    ]
+  },
+  {
+    "key": "reservation_unavaila_2d7db625",
+    "text": "Reservation Unavailable for Selected Dates",
+    "search": "Reservation Unavailable for Selected Dates",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:73"
+    ]
+  },
+  {
+    "key": "we_apologize_but_the_4c2ff5db",
+    "text": "We apologize, but the property is not available for booking\n                during your selected dates. Please select different dates or\n                contact our customer support team for assistance.",
+    "search": "We apologize, but the property is not available for booking\n                during your selected dates. Please select different dates or\n                contact our customer support team for assistance.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/booking/price-detail.tsx:77"
+    ]
+  },
+  {
+    "key": "start_date",
+    "text": "Start date:",
+    "search": "Start date:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/area-booking-calendar.tsx:24"
+    ]
+  },
+  {
+    "key": "end_date",
+    "text": "End date:",
+    "search": "End date:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/area-booking-calendar.tsx:25"
+    ]
+  },
+  {
+    "key": "clear",
+    "text": "Clear",
+    "search": "Clear",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/area-booking-calendar.tsx:26"
+    ]
+  },
+  {
+    "key": "when",
+    "text": "When",
+    "search": "When",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:42",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:225"
+    ]
+  },
+  {
+    "key": "add_dates",
+    "text": "Add dates",
+    "search": "Add dates",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:54",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:68",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:235",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:245"
+    ]
+  },
+  {
+    "key": "this_weekend",
+    "text": "This weekend",
+    "search": "This weekend",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:147",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:326"
+    ]
+  },
+  {
+    "key": "next_week",
+    "text": "Next week",
+    "search": "Next week",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/calendar/booking-date-picker.tsx:159",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:340"
+    ]
+  },
+  {
+    "key": "list",
+    "text": "List",
+    "search": "List",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/filter.tsx:52"
+    ]
+  },
+  {
+    "key": "close_panel",
+    "text": "Close panel",
+    "search": "Close panel",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:67"
+    ]
+  },
+  {
+    "key": "az",
+    "text": "AZ",
+    "search": "AZ",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:77"
+    ]
+  },
+  {
+    "key": "od",
+    "text": "OD",
+    "search": "OD",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:78"
+    ]
+  },
+  {
+    "key": "holboo_barih",
+    "text": "Холбоо барих",
+    "search": "Холбоо барих",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:125"
+    ]
+  },
+  {
+    "key": "hayag_suhbaatar_duur_60f89336",
+    "text": "Хаяг: Сүхбаатар дүүрэг 1-р хороо 5-р хороолол 14б\n                              байр 52 тоот",
+    "search": "Хаяг: Сүхбаатар дүүрэг 1-р хороо 5-р хороолол 14б\n                              байр 52 тоот",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:136"
+    ]
+  },
+  {
+    "key": "utas",
+    "text": "Утас:",
+    "search": "Утас:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:148"
+    ]
+  },
+  {
+    "key": "tsagiyn_huvaar",
+    "text": "Цагийн хуваарь:",
+    "search": "Цагийн хуваарь:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:162"
+    ]
+  },
+  {
+    "key": "davaa_baasan",
+    "text": "Даваа-Баасан",
+    "search": "Даваа-Баасан",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:166"
+    ]
+  },
+  {
+    "key": "09_00_17_00",
+    "text": "09:00 - 17:00",
+    "search": "09:00 - 17:00",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:169"
+    ]
+  },
+  {
+    "key": "tsahim_shuudan",
+    "text": "Цахим шуудан:",
+    "search": "Цахим шуудан:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:181"
+    ]
+  },
+  {
+    "key": "support_azod_mn",
+    "text": "support@azod.mn",
+    "search": "support@azod.mn",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:187"
+    ]
+  },
+  {
+    "key": "soshial_holboosuud",
+    "text": "Сошиал холбоосууд:",
+    "search": "Сошиал холбоосууд:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/drawer/sidebar.tsx:194"
+    ]
+  },
+  {
+    "key": "frequently_asked_questions",
+    "text": "Frequently Asked Questions",
+    "search": "Frequently Asked Questions",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/faq/faq-contain.tsx:18"
+    ]
+  },
+  {
+    "key": "tag",
+    "text": "Tag:",
+    "search": "Tag:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/filter-fields.tsx:109"
+    ]
+  },
+  {
+    "key": "place_offers",
+    "text": "Place Offers:",
+    "search": "Place Offers:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/filter-fields.tsx:125"
+    ]
+  },
+  {
+    "key": "place_offers",
+    "text": "Place Offers",
+    "search": "Place Offers",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/filter-fields.tsx:191"
+    ]
+  },
+  {
+    "key": "tags",
+    "text": "Tags",
+    "search": "Tags",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/filter-fields.tsx:238"
+    ]
+  },
+  {
+    "key": "clear_all",
+    "text": "Clear all",
+    "search": "Clear all",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/filter-fields.tsx:301"
+    ]
+  },
+  {
+    "key": "filter",
+    "text": "Filter",
+    "search": "Filter",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/propery-tags.tsx:125",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:61"
+    ]
+  },
+  {
+    "key": "filters",
+    "text": "Filters",
+    "search": "Filters",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/filter/propery-tags.tsx:166"
+    ]
+  },
+  {
+    "key": "home",
+    "text": "Home",
+    "search": "Home",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:23",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/breadcrumb.tsx:20"
+    ]
+  },
+  {
+    "key": "stays",
+    "text": "Stays",
+    "search": "Stays",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:26"
+    ]
+  },
+  {
+    "key": "gerbooking_gmail_com",
+    "text": "gerbooking@gmail.com",
+    "search": "gerbooking@gmail.com",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:54"
+    ]
+  },
+  {
+    "key": "about_us",
+    "text": "About us",
+    "search": "About us",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:92"
+    ]
+  },
+  {
+    "key": "privacy_policy",
+    "text": "Privacy policy",
+    "search": "Privacy policy",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:95"
+    ]
+  },
+  {
+    "key": "terms_of_service",
+    "text": "Terms of service",
+    "search": "Terms of service",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/footer/index.tsx:98"
+    ]
+  },
+  {
+    "key": "notifications",
+    "text": "Notifications",
+    "search": "Notifications",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/index.tsx:83"
+    ]
+  },
+  {
+    "key": "odoogoor_medegdel_ba_154a6107",
+    "text": "Одоогоор мэдэгдэл байхгүй байна.",
+    "search": "Одоогоор мэдэгдэл байхгүй байна.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/notification-list.tsx:86"
+    ]
+  },
+  {
+    "key": "host_as",
+    "text": "Host as",
+    "search": "Host as",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/header/user-menu.tsx:157"
+    ]
+  },
+  {
+    "key": "show_all_photos",
+    "text": "Show all photos",
+    "search": "Show all photos",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/hero-images/hero-images-grid.tsx:209"
+    ]
+  },
+  {
+    "key": "unuudriyn_oroh_zahialga",
+    "text": "Өнөөдрийн орох захиалга",
+    "search": "Өнөөдрийн орох захиалга",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/merchant-home/brief-info-list.tsx:6",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/merchant-home/brief-info-list.tsx:15",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/merchant-home/brief-info-list.tsx:24",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/merchant-home/brief-info-list.tsx:35"
+    ]
+  },
+  {
+    "key": "120_unelgee",
+    "text": "120 үнэлгээ",
+    "search": "120 үнэлгээ",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/merchant-home/brief-info-list.tsx:42"
+    ]
+  },
+  {
+    "key": "bolih",
+    "text": "Болих",
+    "search": "Болих",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-acc-edit-form.tsx:44"
+    ]
+  },
+  {
+    "key": "hadgalah",
+    "text": "Хадгалах",
+    "search": "Хадгалах",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-acc-edit-form.tsx:49"
+    ]
+  },
+  {
+    "key": "zasah",
+    "text": "Засах",
+    "search": "Засах",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-acc-info.tsx:75"
+    ]
+  },
+  {
+    "key": "niyt_orlogo",
+    "text": "Нийт орлого",
+    "search": "Нийт орлого",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:10",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:20",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:29"
+    ]
+  },
+  {
+    "key": "12_zahialga",
+    "text": "12 захиалга",
+    "search": "12 захиалга",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:16",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:25",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/merchant-income-item.tsx:34"
+    ]
+  },
+  {
+    "key": "payment_successful",
+    "text": "Payment successful",
+    "search": "Payment successful",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-check.tsx:60"
+    ]
+  },
+  {
+    "key": "your_payment_has_bee_43fefd6e",
+    "text": "Your payment has been successfully processed.",
+    "search": "Your payment has been successfully processed.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-check.tsx:64"
+    ]
+  },
+  {
+    "key": "check_payment",
+    "text": "Check Payment",
+    "search": "Check Payment",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-check.tsx:85"
+    ]
+  },
+  {
+    "key": "cancel",
+    "text": "Cancel",
+    "search": "Cancel",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-check.tsx:88",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-password-form.tsx:55"
+    ]
+  },
+  {
+    "key": "no_payment_methods_found",
+    "text": "No payment methods found",
+    "search": "No payment methods found",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-method-picker.tsx:17"
+    ]
+  },
+  {
+    "key": "canceled",
+    "text": "Canceled",
+    "search": "Canceled",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/payment/payment-status.tsx:21",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stay-status.tsx:21"
+    ]
+  },
+  {
+    "key": "placesdetail",
+    "text": "PlacesDetail",
+    "search": "PlacesDetail",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/places/place-info.tsx:4"
+    ]
+  },
+  {
+    "key": "location",
+    "text": "Location:",
+    "search": "Location:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/places/places-hover-card.tsx:63",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/route/route-card.tsx:63"
+    ]
+  },
+  {
+    "key": "change_email",
+    "text": "Change email",
+    "search": "Change email",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/change-email-form.tsx:43"
+    ]
+  },
+  {
+    "key": "update_password",
+    "text": "Update password",
+    "search": "Update password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/change-password-form.tsx:94"
+    ]
+  },
+  {
+    "key": "password",
+    "text": "Password",
+    "search": "Password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:16"
+    ]
+  },
+  {
+    "key": "change_password",
+    "text": "Change Password",
+    "search": "Change Password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:22"
+    ]
+  },
+  {
+    "key": "last_changed_6_months_ago",
+    "text": "Last changed 6 months ago",
+    "search": "Last changed 6 months ago",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:25"
+    ]
+  },
+  {
+    "key": "account",
+    "text": "Account",
+    "search": "Account",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:28"
+    ]
+  },
+  {
+    "key": "deactive_account",
+    "text": "Deactive account",
+    "search": "Deactive account",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:34",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-password-form.tsx:58"
+    ]
+  },
+  {
+    "key": "you_can_delete_your__6c67bfc5",
+    "text": "You can delete your account from our database.",
+    "search": "You can delete your account from our database.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:37"
+    ]
+  },
+  {
+    "key": "verify_email",
+    "text": "Verify email",
+    "search": "Verify email",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:47"
+    ]
+  },
+  {
+    "key": "change_passwords",
+    "text": "Change passwords",
+    "search": "Change passwords",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/security.tsx:55"
+    ]
+  },
+  {
+    "key": "facebook",
+    "text": "Facebook",
+    "search": "Facebook",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:58"
+    ]
+  },
+  {
+    "key": "https",
+    "text": "https://",
+    "search": "https://",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:65",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:85",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:105",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:126",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:146"
+    ]
+  },
+  {
+    "key": "viber",
+    "text": "Viber",
+    "search": "Viber",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:78"
+    ]
+  },
+  {
+    "key": "telegram",
+    "text": "Telegram",
+    "search": "Telegram",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:98"
+    ]
+  },
+  {
+    "key": "line",
+    "text": "Line",
+    "search": "Line",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:118"
+    ]
+  },
+  {
+    "key": "whatsapp",
+    "text": "WhatsApp",
+    "search": "WhatsApp",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/social.tsx:138"
+    ]
+  },
+  {
+    "key": "please_enter_the_tha_7d2946af",
+    "text": "Please enter the that we send to your email. Please check your\n                email.",
+    "search": "Please enter the that we send to your email. Please check your\n                email.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-email-form.tsx:46"
+    ]
+  },
+  {
+    "key": "verify_your_password",
+    "text": "Verify your password",
+    "search": "Verify your password",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-password-form.tsx:35"
+    ]
+  },
+  {
+    "key": "for_your_security_pl_4f7b5790",
+    "text": "For your security, please re-enter your password to continue.",
+    "search": "For your security, please re-enter your password to continue.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/profile/verify-password-form.tsx:46"
+    ]
+  },
+  {
+    "key": "save_a_review",
+    "text": "Save a review",
+    "search": "Save a review",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/add-review-form.tsx:83"
+    ]
+  },
+  {
+    "key": "overall_rating",
+    "text": "Overall rating",
+    "search": "Overall rating",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/all-reviews-modal.tsx:57"
+    ]
+  },
+  {
+    "key": "out_of_5_stars",
+    "text": "out of 5 stars",
+    "search": "out of 5 stars",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/all-reviews-modal.tsx:76"
+    ]
+  },
+  {
+    "key": "based_on",
+    "text": "Based on",
+    "search": "Based on",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/all-reviews-modal.tsx:78"
+    ]
+  },
+  {
+    "key": "star_reviews",
+    "text": "star reviews",
+    "search": "star reviews",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/review/all-reviews-modal.tsx:92"
+    ]
+  },
+  {
+    "key": "date",
+    "text": "Date",
+    "search": "Date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:84"
+    ]
+  },
+  {
+    "key": "pick_a_date",
+    "text": "Pick a Date",
+    "search": "Pick a Date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:90"
+    ]
+  },
+  {
+    "key": "number_of_people",
+    "text": "Number of people",
+    "search": "Number of people",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:103"
+    ]
+  },
+  {
+    "key": "price_range",
+    "text": "Price range",
+    "search": "Price range",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:123"
+    ]
+  },
+  {
+    "key": "min",
+    "text": "Min:",
+    "search": "Min:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:126",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:155"
+    ]
+  },
+  {
+    "key": "currency",
+    "text": "Currency",
+    "search": "Currency",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:130",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:159"
+    ]
+  },
+  {
+    "key": "ars",
+    "text": "ARS",
+    "search": "ARS",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:139",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:168"
+    ]
+  },
+  {
+    "key": "eur",
+    "text": "EUR",
+    "search": "EUR",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:140",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:169"
+    ]
+  },
+  {
+    "key": "booking_options",
+    "text": "Booking options",
+    "search": "Booking options",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:187"
+    ]
+  },
+  {
+    "key": "amenties",
+    "text": "Amenties",
+    "search": "Amenties",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search/search-filter.tsx:210"
+    ]
+  },
+  {
+    "key": "who_s_coming",
+    "text": "Who's coming?",
+    "search": "Who's coming?",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/guest-picker.tsx:14"
+    ]
+  },
+  {
+    "key": "count_of_guests",
+    "text": "Count of guests",
+    "search": "Count of guests",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/guest-picker.tsx:20"
+    ]
+  },
+  {
+    "key": "who",
+    "text": "Who",
+    "search": "Who",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:373"
+    ]
+  },
+  {
+    "key": "add_guests",
+    "text": "Add guests",
+    "search": "Add guests",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:382"
+    ]
+  },
+  {
+    "key": "search",
+    "text": "Search",
+    "search": "Search",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/search-bar/search-bar.tsx:425"
+    ]
+  },
+  {
+    "key": "to",
+    "text": "to",
+    "search": "to",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/cancelation.tsx:19",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:44"
+    ]
+  },
+  {
+    "key": "days_before_the_start_date",
+    "text": "days\n                before the start date",
+    "search": "days\n                before the start date",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/cancelation.tsx:19"
+    ]
+  },
+  {
+    "key": "created_by",
+    "text": "Created by",
+    "search": "Created by",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:29"
+    ]
+  },
+  {
+    "key": "individual",
+    "text": "Individual",
+    "search": "Individual",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:34"
+    ]
+  },
+  {
+    "key": "organization",
+    "text": "Organization",
+    "search": "Organization",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:36"
+    ]
+  },
+  {
+    "key": "please_enter_your_email",
+    "text": "Please enter your email",
+    "search": "Please enter your email",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:47"
+    ]
+  },
+  {
+    "key": "phone",
+    "text": "Phone:",
+    "search": "Phone:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:47"
+    ]
+  },
+  {
+    "key": "email",
+    "text": "Email:",
+    "search": "Email:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:60"
+    ]
+  },
+  {
+    "key": "city",
+    "text": "City:",
+    "search": "City:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:73"
+    ]
+  },
+  {
+    "key": "state",
+    "text": "State:",
+    "search": "State:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:84"
+    ]
+  },
+  {
+    "key": "country",
+    "text": "Country:",
+    "search": "Country:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:97"
+    ]
+  },
+  {
+    "key": "postal_code",
+    "text": "Postal Code:",
+    "search": "Postal Code:",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/merchant-personal-info.tsx:110"
+    ]
+  },
+  {
+    "key": "confirmed",
+    "text": "Confirmed",
+    "search": "Confirmed",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stay-status.tsx:26"
+    ]
+  },
+  {
+    "key": "ilerts_oldsonguy",
+    "text": "Илэрц олдсонгүй.",
+    "search": "Илэрц олдсонгүй.",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/stays/stays-list.tsx:13",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/datalist/list.tsx:130"
+    ]
+  },
+  {
+    "key": "developed_by_goodtech_soft",
+    "text": "Developed by Goodtech Soft",
+    "search": "Developed by Goodtech Soft",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/auth-layout/auth-layout.tsx:17"
+    ]
+  },
+  {
+    "key": "previous",
+    "text": "Previous",
+    "search": "Previous",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/carousel/carousel.tsx:113",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:31",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:54"
+    ]
+  },
+  {
+    "key": "next",
+    "text": "Next",
+    "search": "Next",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/carousel/carousel.tsx:137",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:37",
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:102"
+    ]
+  },
+  {
+    "key": "no_results_found",
+    "text": "No results found",
+    "search": "No results found",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/map/map-provider.tsx:224"
+    ]
+  },
+  {
+    "key": "umnuh",
+    "text": "Өмнөх",
+    "search": "Өмнөх",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/list-pagination.tsx:23"
+    ]
+  },
+  {
+    "key": "daraah",
+    "text": "Дараах",
+    "search": "Дараах",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/list-pagination.tsx:55"
+    ]
+  },
+  {
+    "key": "showing",
+    "text": "Showing",
+    "search": "Showing",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:43"
+    ]
+  },
+  {
+    "key": "of",
+    "text": "of",
+    "search": "of",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:44"
+    ]
+  },
+  {
+    "key": "results",
+    "text": "results",
+    "search": "results",
+    "locations": [
+      "/Users/inkmn/workspace/dev/repos/gerbook/gerbook-website/src/components/ui/table/pagination.tsx:45"
+    ]
+  },
+  {
+    "key": "traveler",
+    "text": "Traveler"
+  },
+  {
+    "key": "merchant",
+    "text": "Merchant"
+  },
+  {
+    "key": "please_enter_your_password",
+    "text": "Please enter your password"
+  },
+  {
+    "key": "please_verify_your_password",
+    "text": "Please verify your password"
+  },
+  {
+    "key": "passwords_must_match",
+    "text": "Passwords must match"
+  },
+  {
+    "key": "please_enter_your_old_password",
+    "text": "Please enter your old password"
+  },
+  {
+    "key": "please_enter_your_new_password",
+    "text": "Please enter your new password"
+  },
+  {
+    "key": "resend",
+    "text": "Resend"
+  },
+  {
+    "key": "this_field_is_required",
+    "text": "This field is required!"
+  },
+  {
+    "key": "register_successfully",
+    "text": "Register successfully!"
+  },
+  {
+    "key": "organization_registration_number",
+    "text": "Organization registration number"
+  },
+  {
+    "key": "registration_number",
+    "text": "Registration number"
+  },
+  {
+    "key": "please_enter_your_organization_registration_number",
+    "text": "Please enter your organization registration number"
+  },
+  {
+    "key": "please_enter_your_registration_number",
+    "text": "Please enter your registration number"
+  },
+  {
+    "key": "please_enter_your_information_correctly",
+    "text": "Please enter your information correctly."
+  },
+  {
+    "key": "first_name",
+    "text": "First name"
+  },
+  {
+    "key": "last_name",
+    "text": "Last name"
+  },
+  {
+    "key": "birth_date",
+    "text": "Birth date"
+  },
+  {
+    "key": "gender",
+    "text": "Gender"
+  },
+  {
+    "key": "male",
+    "text": "Male"
+  },
+  {
+    "key": "female",
+    "text": "Female"
+  },
+  {
+    "key": "please_enter_your_first_name",
+    "text": "Please enter your first name"
+  },
+  {
+    "key": "please_enter_your_last_name",
+    "text": "Please enter your last name"
+  },
+  {
+    "key": "please_enter_your_phone_number",
+    "text": "Please enter your phone number"
+  },
+  {
+    "key": "please_select_your_gender",
+    "text": "Please select your gender"
+  },
+  {
+    "key": "blocked_date_updated_successfully",
+    "text": "Blocked date updated successfully"
+  },
+  {
+    "key": "blocked_quantity",
+    "text": "Blocked quantity"
+  },
+  {
+    "key": "cancel_policy_variant",
+    "text": "Cancel Policy variant"
+  },
+  {
+    "key": "select_an_variant",
+    "text": "Select an variant"
+  },
+  {
+    "key": "cancel_policy_variant_percentage",
+    "text": "Cancel Policy variant (percentage)"
+  },
+  {
+    "key": "cancel_policy_variant_fixed",
+    "text": "Cancel Policy variant (fixed)"
+  },
+  {
+    "key": "cancel_policy_variant_free",
+    "text": "Cancel Policy variant (free)"
+  },
+  {
+    "key": "no_variant",
+    "text": "No variant"
+  },
+  {
+    "key": "rate",
+    "text": "Rate"
+  },
+  {
+    "key": "listing_created_successfully",
+    "text": "Listing created successfully"
+  },
+  {
+    "key": "publish_listing",
+    "text": "Publish listing"
+  },
+  {
+    "key": "are_you_sure_you_want_to_publish_this_listing",
+    "text": "Are you sure you want to publish this listing?"
+  },
+  {
+    "key": "listing_published_successfully",
+    "text": "Listing published successfully"
+  },
+  {
+    "key": "property_information",
+    "text": "Property Information"
+  },
+  {
+    "key": "property_details_and_information",
+    "text": "Property details and information."
+  },
+  {
+    "key": "admin_active",
+    "text": "Admin Active"
+  },
+  {
+    "key": "published",
+    "text": "Published"
+  },
+  {
+    "key": "draft",
+    "text": "Draft"
+  },
+  {
+    "key": "unpublish",
+    "text": "Unpublish"
+  },
+  {
+    "key": "publish",
+    "text": "Publish"
+  },
+  {
+    "key": "share_link",
+    "text": "Share link"
+  },
+  {
+    "key": "images",
+    "text": "Images"
+  },
+  {
+    "key": "name",
+    "text": "Name"
+  },
+  {
+    "key": "description",
+    "text": "Description"
+  },
+  {
+    "key": "place_offers",
+    "text": "Place Offers"
+  },
+  {
+    "key": "tags",
+    "text": "Tags"
+  },
+  {
+    "key": "beds",
+    "text": "Beds"
+  },
+  {
+    "key": "pricing_information",
+    "text": "Pricing Information"
+  },
+  {
+    "key": "pricing_details_and_information",
+    "text": "Pricing details and information."
+  },
+  {
+    "key": "price_control",
+    "text": "Price control"
+  },
+  {
+    "key": "price_per_night",
+    "text": "Price (per night)"
+  },
+  {
+    "key": "price",
+    "text": "Price"
+  },
+  {
+    "key": "quantity",
+    "text": "Quantity"
+  },
+  {
+    "key": "person_capacity",
+    "text": "Person capacity"
+  },
+  {
+    "key": "check_in_time",
+    "text": "Check In Time"
+  },
+  {
+    "key": "check_out_time",
+    "text": "Check Out Time"
+  },
+  {
+    "key": "location_information",
+    "text": "Location Information"
+  },
+  {
+    "key": "location_details_and_information",
+    "text": "Location details and information."
+  },
+  {
+    "key": "level_1",
+    "text": "Level 1"
+  },
+  {
+    "key": "level_2",
+    "text": "Level 2"
+  },
+  {
+    "key": "level_3",
+    "text": "Level 3"
+  },
+  {
+    "key": "additional_information",
+    "text": "Additional Information"
+  },
+  {
+    "key": "please_select_location",
+    "text": "Please select location"
+  },
+  {
+    "key": "discount_and_cancel_policy",
+    "text": "Discount and Cancel Policy"
+  },
+  {
+    "key": "discount_and_cancel_policy_details_and_information",
+    "text": "Discount and cancel policy details and information."
+  },
+  {
+    "key": "submit",
+    "text": "Submit"
+  },
+  {
+    "key": "action",
+    "text": "Action"
+  },
+  {
+    "key": "your_listings",
+    "text": "Your Listings"
+  },
+  {
+    "key": "is_admin_active",
+    "text": "Is Admin Active"
+  },
+  {
+    "key": "is_active",
+    "text": "Booked Date"
+  },
+  {
+    "key": "booked_date",
+    "text": "Booked Date"
+  },
+  {
+    "key": "active",
+    "text": "Active"
+  },
+  {
+    "key": "inactive",
+    "text": "Inactive"
+  },
+  {
+    "key": "total_rates",
+    "text": "Total Rates"
+  },
+  {
+    "key": "saves",
+    "text": "Saves"
+  },
+  {
+    "key": "stay_dates",
+    "text": "Stay Dates"
+  },
+  {
+    "key": "total_price",
+    "text": "Total Price"
+  },
+  {
+    "key": "booked_time",
+    "text": "Booked Time"
+  },
+  {
+    "key": "your_bookings",
+    "text": "Your Bookings"
+  },
+  {
+    "key": "date_range",
+    "text": "Date Range"
+  },
+  {
+    "key": "password_updated_successfully",
+    "text": "Password updated successfully"
+  },
+  {
+    "key": "please_verify_your_confirm_password",
+    "text": "Please verify your confirm password"
+  },
+  {
+    "key": "current_password",
+    "text": "Current password"
+  },
+  {
+    "key": "new_password",
+    "text": "New password"
+  },
+  {
+    "key": "confirm_password",
+    "text": "Confirm password"
+  },
+  {
+    "key": "update_password",
+    "text": "Update password"
+  },
+  {
+    "key": "deactivating_your_account_is_temporary",
+    "text": "Deactivating your account is temporary. Your account and main profile will be deactivated, and your name and photos will be removed from most things youve done."
+  },
+  {
+    "key": "profile_updated_successfully",
+    "text": "Profile updated successfully"
+  },
+  {
+    "key": "view_all_transactions",
+    "text": "View all transactions"
+  },
+  {
+    "key": "order_created_successfully",
+    "text": "Order created successfully"
+  },
+  {
+    "key": "are_you_sure_you_want_to_cancel_this_booking",
+    "text": "Are you sure you want to cancel this booking?"
+  },
+  {
+    "key": "booking_details_and_payment_information",
+    "text": "Booking details and payment information."
+  },
+  {
+    "key": "cancel_request_in_progress",
+    "text": "Cancel request in progress"
+  },
+  {
+    "key": "your_booking_is_cancelled",
+    "text": "Your booking is cancelled"
+  },
+  {
+    "key": "please_wait_for_the_cancellation_request_to_be_processed",
+    "text": "Please wait for the cancellation request to be processed."
+  },
+  {
+    "key": "refund_amount",
+    "text": "Refund amount"
+  },
+  {
+    "key": "write_a_review",
+    "text": "Write a review"
+  },
+  {
+    "key": "your_booking_has_been_cancelled",
+    "text": "Your booking has been cancelled"
+  },
+  {
+    "key": "your_booking_has_been_cancelled_please_contact_support_if_you_have_any_questions",
+    "text": "Your booking has been cancelled. Please contact support if you have any questions."
+  },
+  {
+    "key": "your_booking_is_unable_to_pay_please_contact_support_if_you_have_any_questions",
+    "text": "Your booking is unable to pay. Please contact support if you have any questions."
+  },
+  {
+    "key": "payment_successful_description",
+    "text": "Your payment has been successfully processed."
+  },
+  {
+    "key": "login_security",
+    "text": "Login & Security"
+  },
+  {
+    "key": "beautiful_place",
+    "text": "Beautiful place"
+  },
+  {
+    "key": "no_data",
+    "text": "No data"
+  },
+  {
+    "key": "where",
+    "text": "Where"
+  },
+  {
+    "key": "search_for_places",
+    "text": "Search for places"
+  },
+  {
+    "key": "select_dates",
+    "text": "Select dates"
+  },
+  {
+    "key": "show",
+    "text": "Show"
+  },
+  {
+    "key": "no_stays_available",
+    "text": "No stays available"
+  },
+  {
+    "key": "removed_from_wishlist",
+    "text": "Removed from wishlist"
+  },
+  {
+    "key": "added_to_wishlist",
+    "text": "Added to wishlist"
+  },
+  {
+    "key": "unauthorized_error",
+    "text": "Unauthorized error"
+  },
+  {
+    "key": "you_ll_be_staying_in_someone_s_home_so_please_treat",
+    "text": "You&apos;ll be stayung in someone&apos;s home, so please treat"
+  },
+  {
+    "key": "reservation_unavailable_for_selected_dates",
+    "text": "Reservation Unavailable for Selected Dates"
+  },
+  {
+    "key": "we_apologize_but_the_property_is_not_available",
+    "text": "We apologize, but the property is not available for booking during your selected dates. Please select different dates or contact our customer support team for assistance."
+  },
+  {
+    "key": "if_nothing_happens",
+    "text": "If nothing happens, please download our app"
+  },
+  {
+    "key": "the_page_you_re_looking_for_doesn_t_exist_or_has_been_moved",
+    "text": "The page you&apos;re looking for doesn&apos;t exist or has been moved."
+  },
+  {
+    "key": "download_the_app_for_more_fast_booking",
+    "text": "Download the app for more fast booking"
+  },
+  {
+    "key": "app_promotion_text",
+    "text": "App promotion text"
+  },
+  {
+    "key": "download_on_the",
+    "text": "Download on the"
+  },
+  {
+    "key": "listings",
+    "text": "Listings"
+  },
+  {
+    "key": "reservations",
+    "text": "Reservations"
+  },
+  {
+    "key": "please_enter_the_otp_that_we_send_to_your_email",
+    "text": "Please enter the OTP that we send to your email. Please check your email."
+  },
+  {
+    "key": "for_your_security_please_re_enter_your_password_to_continue",
+    "text": "For your security, please re-enter your password to continue."
+  }
+]

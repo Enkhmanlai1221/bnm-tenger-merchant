@@ -31,6 +31,7 @@ export function Header() {
   const isBookings = pathname.startsWith(`/${lang}/bookings`);
   const isCampGraphic = pathname.startsWith(`/${lang}/camp-graphic`);
   const isUsers = pathname.startsWith(`/${lang}/users`);
+  const isCalendar = pathname.startsWith(`/${lang}/calendar`);
 
   const navLinks = [
     {
@@ -47,6 +48,11 @@ export function Header() {
       name: "Захиалга",
       href: `/${lang}/bookings`,
       isActive: isBookings,
+    },
+    {
+      name: "Календар",
+      href: `/${lang}/calendar`,
+      isActive: isCalendar,
     },
     {
       name: "Кемп график",

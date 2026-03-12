@@ -76,9 +76,7 @@ export function LoginForm({
         res = await authApi.login(formData);
       }
 
-      message.success(
-        translate("successfully_logged_in", "Successfully logged in."),
-      );
+      message.success("Амжилттай нэвтэрлээ");
       dispatch(setToken(res));
       dispatch(setAuthModal(false));
       dispatch(setRememberMe({

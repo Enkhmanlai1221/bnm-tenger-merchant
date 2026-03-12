@@ -16,6 +16,7 @@ import {
 } from "@heroui/react";
 import { IconCheck, IconEye, IconX } from "@tabler/icons-react";
 import dayjs from "dayjs";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const mockBookings: any[] = [
@@ -173,9 +174,14 @@ const mockLoadBookings = async (filters: any) => {
 
 export default function BookingsPage() {
   const { translate } = useLanguage();
+  const router = useRouter();
   const columns = useHeader({
     onClick: (key, record) => {
-      console.log(key, record);
+      switch (key) {
+        case "detail":
+          router.push(`/bookings/${record._id}`);
+          break;
+      }
     },
   });
 
@@ -310,20 +316,20 @@ const useHeader = ({
           onClick={(key) => onClick(key, record)}
           extra={{
             detail: (
-              <button className="p-2 rounded-xl hover:bg-gray-100 bg-gray-100">
+              <button className="p-2 rounded-xl hover:bg-gray-100 bg-gray-100" >
                 <IconEye size={20} />
-              </button>
+              </button >
             ),
-            cancelled: (
-              <button className="p-2 rounded-xl hover:bg-gray-100 bg-red-100">
-                <IconX color="red" size={20} />
-              </button>
-            ),
-            confirm: (
-              <button className="p-2 rounded-xl hover:bg-gray-100 bg-green-100">
-                <IconCheck color="green" size={20} />
-              </button>
-            ),
+            // cancelled: (
+            //   <button className="p-2 rounded-xl hover:bg-gray-100 bg-red-100">
+            //     <IconX color="red" size={20} />
+            //   </button>
+            // ),
+            // confirm: (
+            //   <button className="p-2 rounded-xl hover:bg-gray-100 bg-green-100">
+            //     <IconCheck color="green" size={20} />
+            //   </button>
+            // ),
           }}
         />
       ),

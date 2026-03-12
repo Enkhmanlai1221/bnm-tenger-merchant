@@ -4,11 +4,9 @@ import type { NextRequest } from "next/server";
 import { getLocale, locales } from "./utils/lang";
 import { jwtDecode } from "jwt-decode";
 import { getPathnameWithoutLocale } from "./utils";
-// List of all supported locales
 
 export const runtime = "experimental-edge";
 
-// Paths that are accessible without authentication
 const AUTH_EXEMPT_PATHS = [
   "/login",
   "/register",
@@ -25,10 +23,8 @@ const AUTH_EXEMPT_PATHS = [
 
 export function middleware(request: NextRequest) {
   const start = performance.now();
-  // Get pathname of request (e.g. /blog-article, /products)
   const pathname = request.nextUrl.pathname;
   const pathnameWithoutLocale = getPathnameWithoutLocale(pathname);
-  // Skip locale redirect if the path is for static assets
   if (
     pathname.startsWith("/_next/") ||
     pathname.startsWith("/app/") ||

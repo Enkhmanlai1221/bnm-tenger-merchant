@@ -45,7 +45,6 @@ export function Footer() {
               href={`/${lang}/dashboard`}
               className="flex items-center gap-3 w-fit"
             >
-              <Image src="/favicon.ico" alt="Tenger BNB" width={40} height={40} />
               <div className="leading-none">
                 <p className="text-[15px] font-bold tracking-[0.28em] text-slate-900">
                   TENGER

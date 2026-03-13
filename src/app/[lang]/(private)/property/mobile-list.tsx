@@ -64,10 +64,10 @@ export function PropertyMobileList() {
         name="swr.merchant.mobile.listings"
       >
         {({ data }) => (
-          <div className="flex flex-col gap-y-2 mb-8 pb-[34px]">
+          <div className="flex flex-col gap-y-2 my-8 pb-[34px]">
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
               <h3 className="font-semibold text-xl">
-                {translate("your_bookings", "Your Bookings")} ({data.count})
+                Гэр жагсаалт ({data.count})
               </h3>
               <Button
                 as={Link}
@@ -76,69 +76,19 @@ export function PropertyMobileList() {
                 variant="solid"
                 className="w-full sm:w-auto"
               >
-                {translate("create_listing", "Create Listing")}
+                Гэр нэмэх
               </Button>
             </div>
             <div className="flex flex-wrap items-center gap-2">
               <Input
                 size="sm"
-                label={translate("search", "Search")}
+                placeholder="Хайх"
                 className="w-full md:max-w-64"
                 value={filters.query}
                 onChange={(e) =>
                   setFilters({ ...filters, query: e.target.value })
                 }
               />
-              <Select
-                size="sm"
-                label={translate("status", "Status")}
-                selectionMode="multiple"
-                className="w-full md:max-w-64"
-                value={filters.statuses}
-                onChange={(e) =>
-                  setFilters({ ...filters, statuses: e.target.value })
-                }
-              >
-                {Object.values(PROPERTY_STATUS).map((status) => (
-                  <SelectItem key={status} value={status}>
-                    {translate(`${status}`.toLowerCase(), status)}
-                  </SelectItem>
-                ))}
-              </Select>
-
-              <Select
-                size="sm"
-                label={translate("is_active_filter", "Is Active Filter")}
-                className="w-full md:max-w-64"
-                value={filters.isActive}
-                onChange={(e) =>
-                  setFilters({ ...filters, isActive: e.target.value })
-                }
-              >
-                <SelectItem key="active">
-                  {translate("active", "Active")}
-                </SelectItem>
-                <SelectItem key="inactive">
-                  {translate("inactive", "Inactive")}
-                </SelectItem>
-              </Select>
-
-              <Select
-                size="sm"
-                label={translate("is_admin_active", "Is Admin Active")}
-                className="w-full md:max-w-64"
-                value={filters.isAdminActive}
-                onChange={(e) =>
-                  setFilters({ ...filters, isAdminActive: e.target.value })
-                }
-              >
-                <SelectItem key="active">
-                  {translate("active", "Active")}
-                </SelectItem>
-                <SelectItem key="inactive">
-                  {translate("inactive", "Inactive")}
-                </SelectItem>
-              </Select>
             </div>
 
             <div className="flex flex-col gap-y-2">
@@ -194,19 +144,11 @@ export function PropertyMobileList() {
 
                     <div className="flex gap-2 items-end text-[11px] text-gray-500">
                       <button
-                        onClick={() => onClick("calendar", i)}
-                        className="flex-1 flex items-center justify-center gap-1 rounded-md border px-2 py-1 hover:bg-gray-100 dark:hover:bg-zinc-700"
-                      >
-                        <IconCalendar size={16} />
-                        {translate("calendar", "Calendar")}
-                      </button>
-
-                      <button
-                        onClick={() => onClick("detail", i)}
+                        onClick={() => router.push(`/listings/${i._id}`)}
                         className="flex-1 flex items-center justify-center gap-1 rounded-md border px-2 py-1 hover:bg-gray-100 dark:hover:bg-zinc-700"
                       >
                         <IconEdit size={16} />
-                        {translate("zasah", "Edit")}
+                        Засах
                       </button>
                     </div>
 

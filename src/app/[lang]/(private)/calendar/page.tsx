@@ -206,9 +206,9 @@ export default function CalendarPage() {
   }, [bookingsData]);
 
   return (
-    <div className="p-4 lg:p-6 max-w-screen-2xl mx-auto space-y-6">
+    <div className="p-3 sm:p-4 lg:p-6 max-w-screen-2xl mx-auto space-y-4 sm:space-y-6">
       {/* Statistics Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4">
         <StatCard
           title="Нийт захиалга"
           value={stats.total}
@@ -236,59 +236,59 @@ export default function CalendarPage() {
       </div>
 
       <div className="lg:flex lg:h-full lg:flex-col">
-        <header className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-gray-200 pb-4 lg:flex-none">
+        <header className="flex flex-col gap-3 sm:gap-4 border-b border-gray-200 pb-3 sm:pb-4 lg:flex-none">
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
               Захиалгын жагсаалт
             </h1>
-            <p className="text-sm text-gray-500 mt-1">
+            <p className="text-xs sm:text-sm text-gray-500 mt-1 hidden sm:block">
               Захиалгын цагпит гарын авсан, ирсэн, гарсан захиалгын тоог харах боломжтой.
             </p>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4">
             {/* Legend */}
-            <div className="flex flex-wrap items-center gap-3 text-xs">
-              <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-yellow-50 border border-yellow-200">
-                <div className="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
-                <span className="font-medium text-gray-700">Өмнөх захиалга</span>
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-xs">
+              <div className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-yellow-50 border border-yellow-200">
+                <div className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-yellow-400"></div>
+                <span className="font-medium text-gray-700 text-[10px] sm:text-xs">Өмнөх захиалга</span>
               </div>
-              <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-green-50 border border-green-200">
-                <div className="w-2.5 h-2.5 rounded-full bg-green-500"></div>
-                <span className="font-medium text-gray-700">Өнөөдөр ирсэн</span>
+              <div className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-green-50 border border-green-200">
+                <div className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-green-500"></div>
+                <span className="font-medium text-gray-700 text-[10px] sm:text-xs">Өнөөдөр ирсэн</span>
               </div>
-              <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-blue-50 border border-blue-200">
-                <div className="w-2.5 h-2.5 rounded-full bg-blue-500"></div>
-                <span className="font-medium text-gray-700">Өнөөдөр гарсан</span>
+              <div className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-lg bg-blue-50 border border-blue-200">
+                <div className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-blue-500"></div>
+                <span className="font-medium text-gray-700 text-[10px] sm:text-xs">Өнөөдөр гарсан</span>
               </div>
             </div>
 
             {/* Month navigation */}
-            <div className="relative flex items-center rounded-xl bg-white shadow-sm border border-gray-200 overflow-hidden">
+            <div className="relative flex items-center rounded-lg sm:rounded-xl bg-white shadow-sm border border-gray-200 overflow-hidden">
               <button
                 onClick={() => setCurrentMonth(currentMonth.subtract(1, "month"))}
                 type="button"
-                className="flex h-10 w-10 items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-50 transition-colors"
+                className="flex h-9 sm:h-10 w-9 sm:w-10 items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-50 transition-colors"
               >
                 <span className="sr-only">
                   Өмнөх сарын
                 </span>
-                <IconChevronLeft className="size-5" aria-hidden="true" />
+                <IconChevronLeft className="size-4 sm:size-5" aria-hidden="true" />
               </button>
               <button
                 type="button"
-                className="px-4 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50 transition-colors border-x border-gray-200"
+                className="px-3 sm:px-4 py-2 text-xs sm:text-sm font-semibold text-gray-900 hover:bg-gray-50 transition-colors border-x border-gray-200"
               >
                 {currentMonth.format("MMMM YYYY")}
               </button>
               <button
                 onClick={() => setCurrentMonth(currentMonth.add(1, "month"))}
                 type="button"
-                className="flex h-10 w-10 items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-50 transition-colors"
+                className="flex h-9 sm:h-10 w-9 sm:w-10 items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-50 transition-colors"
               >
                 <span className="sr-only">
                   Дараа сарын
                 </span>
-                <IconChevronRight className="size-5" aria-hidden="true" />
+                <IconChevronRight className="size-4 sm:size-5" aria-hidden="true" />
               </button>
             </div>
           </div>
@@ -297,14 +297,14 @@ export default function CalendarPage() {
         <Card shadow="sm" radius="lg" className="border border-gray-200">
           <CardBody className="p-0">
             {/* Day headers */}
-            <div className="grid grid-cols-7 gap-px border-b border-gray-200 bg-gray-50 text-center text-xs font-semibold text-gray-600">
-              <div className="bg-white py-3">{dayjs().day(1).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(2).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(3).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(4).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(5).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(6).format("dd")}</div>
-              <div className="bg-white py-3">{dayjs().day(7).format("dd")}</div>
+            <div className="grid grid-cols-7 gap-px border-b border-gray-200 bg-gray-50 text-center text-[10px] sm:text-xs font-semibold text-gray-600">
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(1).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(2).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(3).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(4).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(5).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(6).format("dd")}</div>
+              <div className="bg-white py-2 sm:py-3">{dayjs().day(7).format("dd")}</div>
             </div>
 
             {/* Calendar grid */}
@@ -330,7 +330,7 @@ export default function CalendarPage() {
                   <div
                     key={dayKey}
                     className={cn(
-                      "min-h-28 lg:min-h-32 bg-white p-2 cursor-pointer transition-all duration-200",
+                      "min-h-20 sm:min-h-24 lg:min-h-32 bg-white p-1 sm:p-2 cursor-pointer transition-all duration-200",
                       "hover:bg-gray-50 hover:shadow-sm hover:z-10 relative",
                       !isCurrentMonth && "bg-gray-50/50 text-gray-400",
                       isPast && !isToday && "opacity-50",
@@ -341,7 +341,7 @@ export default function CalendarPage() {
                     <time
                       dateTime={dayKey}
                       className={cn(
-                        "flex size-7 items-center justify-center rounded-lg font-semibold mb-2 transition-colors",
+                        "flex size-5 sm:size-6 lg:size-7 items-center justify-center rounded-lg font-semibold mb-1 sm:mb-2 transition-colors text-xs sm:text-sm",
                         isToday
                           ? "bg-primary-600 text-white shadow-md"
                           : isCurrentMonth
@@ -354,27 +354,27 @@ export default function CalendarPage() {
 
                     {/* Booking indicators */}
                     {totalCount > 0 && (
-                      <div className="flex flex-col gap-1.5 mt-1">
+                      <div className="flex flex-col gap-1 sm:gap-1.5 mt-0.5 sm:mt-1">
                         {dayBookings.preBooked.length > 0 && (
-                          <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded-md bg-yellow-50 border border-yellow-200">
-                            <div className="w-1.5 h-1.5 rounded-full bg-yellow-400"></div>
-                            <span className="text-[10px] font-medium text-gray-700">
+                          <div className="flex items-center gap-1 sm:gap-1.5 px-1 sm:px-1.5 py-0.5 rounded-md bg-yellow-50 border border-yellow-200">
+                            <div className="w-1 sm:w-1.5 h-1 sm:h-1.5 rounded-full bg-yellow-400"></div>
+                            <span className="text-[8px] sm:text-[10px] font-medium text-gray-700">
                               {dayBookings.preBooked.length}
                             </span>
                           </div>
                         )}
                         {dayBookings.incoming.length > 0 && (
-                          <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded-md bg-green-50 border border-green-200">
-                            <div className="w-1.5 h-1.5 rounded-full bg-green-500"></div>
-                            <span className="text-[10px] font-medium text-gray-700">
+                          <div className="flex items-center gap-1 sm:gap-1.5 px-1 sm:px-1.5 py-0.5 rounded-md bg-green-50 border border-green-200">
+                            <div className="w-1 sm:w-1.5 h-1 sm:h-1.5 rounded-full bg-green-500"></div>
+                            <span className="text-[8px] sm:text-[10px] font-medium text-gray-700">
                               {dayBookings.incoming.length}
                             </span>
                           </div>
                         )}
                         {dayBookings.outgoing.length > 0 && (
-                          <div className="flex items-center gap-1.5 px-1.5 py-0.5 rounded-md bg-blue-50 border border-blue-200">
-                            <div className="w-1.5 h-1.5 rounded-full bg-blue-500"></div>
-                            <span className="text-[10px] font-medium text-gray-700">
+                          <div className="flex items-center gap-1 sm:gap-1.5 px-1 sm:px-1.5 py-0.5 rounded-md bg-blue-50 border border-blue-200">
+                            <div className="w-1 sm:w-1.5 h-1 sm:h-1.5 rounded-full bg-blue-500"></div>
+                            <span className="text-[8px] sm:text-[10px] font-medium text-gray-700">
                               {dayBookings.outgoing.length}
                             </span>
                           </div>
@@ -404,25 +404,26 @@ export default function CalendarPage() {
               <DrawerHeader className="flex flex-col gap-1">
                 <div className="px-4 sm:px-0">
                   <div className="flex items-center gap-2">
-                    <IconCalendar size={24} stroke={1.5} />
-                    <h3 className="text-base/7 font-semibold text-gray-900">
+                    <IconCalendar size={24} stroke={1.5} className="hidden sm:block" />
+                    <IconCalendar size={20} stroke={1.5} className="block sm:hidden" />
+                    <h3 className="text-sm sm:text-base font-semibold text-gray-900">
                       {selectedDate?.format("YYYY-MM-DD")}
                     </h3>
                   </div>
-                  <p className="mt-1 max-w-2xl text-sm/6 text-gray-500">
+                  <p className="mt-1 max-w-2xl text-xs sm:text-sm text-gray-500">
                     {selectedDate?.format("YYYY-MM-DD")} Өнөөдөр захиалгын тоог харах боломжтой.
                   </p>
                 </div>
               </DrawerHeader>
-              <DrawerBody>
+              <DrawerBody className="px-4">
                 {selectedBookings && (
-                  <div className="flex flex-col gap-6">
+                  <div className="flex flex-col gap-4 sm:gap-6">
                     {/* Pre-booked */}
                     {selectedBookings.preBooked.length > 0 && (
                       <div className="flex flex-col gap-2">
                         <div className="flex items-center gap-2 mb-2">
-                          <div className="w-3 h-3 rounded bg-yellow-400"></div>
-                          <h4 className="text-lg font-semibold text-gray-900">
+                          <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded bg-yellow-400"></div>
+                          <h4 className="text-base sm:text-lg font-semibold text-gray-900">
                             Өмнөх захиалга (
                             {selectedBookings.preBooked.length})
                           </h4>
@@ -439,8 +440,8 @@ export default function CalendarPage() {
                     {selectedBookings.incoming.length > 0 && (
                       <div className="flex flex-col gap-2">
                         <div className="flex items-center gap-2 mb-2">
-                          <div className="w-3 h-3 rounded bg-green-500"></div>
-                          <h4 className="text-lg font-semibold text-gray-900">
+                          <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded bg-green-500"></div>
+                          <h4 className="text-base sm:text-lg font-semibold text-gray-900">
                             Өнөөдөр ирсэн (
                             {selectedBookings.incoming.length})
                           </h4>
@@ -457,8 +458,8 @@ export default function CalendarPage() {
                     {selectedBookings.outgoing.length > 0 && (
                       <div className="flex flex-col gap-2">
                         <div className="flex items-center gap-2 mb-2">
-                          <div className="w-3 h-3 rounded bg-blue-500"></div>
-                          <h4 className="text-lg font-semibold text-gray-900">
+                          <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded bg-blue-500"></div>
+                          <h4 className="text-base sm:text-lg font-semibold text-gray-900">
                             Өнөөдөр гарсан (
                             {selectedBookings.outgoing.length})
                           </h4>
@@ -514,15 +515,15 @@ function StatCard({
 
   return (
     <Card shadow="sm" radius="lg" className="border border-gray-200">
-      <CardBody className="p-4">
+      <CardBody className="p-3 sm:p-4">
         <div className="flex items-center justify-between">
-          <div>
-            <p className="text-sm font-medium text-gray-600 mb-1">{title}</p>
-            <p className="text-2xl font-bold text-gray-900">{value}</p>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs sm:text-sm font-medium text-gray-600 mb-0.5 sm:mb-1 truncate">{title}</p>
+            <p className="text-xl sm:text-2xl font-bold text-gray-900">{value}</p>
           </div>
           <div
             className={cn(
-              "flex h-12 w-12 items-center justify-center rounded-xl border",
+              "flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-lg sm:rounded-xl border shrink-0",
               colorClasses[color]
             )}
           >
@@ -556,44 +557,46 @@ function BookingCard({ booking }: { booking: IBooking }) {
 
   return (
     <Card shadow="sm" radius="lg" className="border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all duration-200">
-      <CardBody className="p-4">
+      <CardBody className="p-3 sm:p-4">
         <Link
           href={`#`}
           target="_blank"
           className="flex flex-col gap-2"
         >
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-2">
-              <span className="font-medium text-gray-900">{booking.code}</span>
+          <div className="flex justify-between items-start sm:items-center gap-2">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 min-w-0 flex-1">
+              <span className="font-medium text-gray-900 text-sm sm:text-base truncate">{booking.code}</span>
               <Chip
                 size="sm"
                 color={getStatusColor(booking.status)}
                 variant="flat"
+                className="text-xs"
               >
                 {booking.status}
               </Chip>
             </div>
-            <IconExternalLink size={16} className="text-gray-400" />
+            <IconExternalLink size={16} className="text-gray-400 shrink-0 hidden sm:block" />
+            <IconExternalLink size={14} className="text-gray-400 shrink-0 block sm:hidden" />
           </div>
 
-          <div className="flex flex-col gap-1.5 text-sm">
+          <div className="flex flex-col gap-1 sm:gap-1.5 text-xs sm:text-sm">
             <div className="flex gap-1 items-center justify-between">
               <span className="text-gray-500">
                 Бүтээгдэхүүн:
               </span>
-              <span className="font-medium">{booking.property?.name || booking.property?.code}</span>
+              <span className="font-medium text-right truncate ml-2">{booking.property?.name || booking.property?.code}</span>
             </div>
             <div className="flex gap-1 items-center justify-between">
               <span className="text-gray-500">
                 Ирэх өдөр:
               </span>
-              <span>{formatDateTime(booking.startDate)}</span>
+              <span className="text-right">{formatDateTime(booking.startDate)}</span>
             </div>
             <div className="flex gap-1 items-center justify-between">
               <span className="text-gray-500">
                 Гарах өдөр:
               </span>
-              <span>{formatDateTime(booking.endDate)}</span>
+              <span className="text-right">{formatDateTime(booking.endDate)}</span>
             </div>
             <div className="flex gap-1 items-center justify-between">
               <span className="text-gray-500">

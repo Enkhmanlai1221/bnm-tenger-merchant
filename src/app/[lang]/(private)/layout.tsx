@@ -17,7 +17,7 @@ export default function PrivateLayout({
           {children}
         </div>
         <Footer />
-        <TabBar />
+        {/* <TabBar /> */}
       </div>
     </PriviteProvider>
   );

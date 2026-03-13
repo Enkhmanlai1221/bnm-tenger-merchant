@@ -65,7 +65,7 @@ export default async function RootLayout({
       <body className={`${roboto.variable}`} style={{ height: "100%" }}>
         <ServerProviders lang={lang}>
           <ClientProviders lang={lang}>
-            <ApplePayScript />
+            {/* <ApplePayScript /> */}
             {children}
           </ClientProviders>
         </ServerProviders>

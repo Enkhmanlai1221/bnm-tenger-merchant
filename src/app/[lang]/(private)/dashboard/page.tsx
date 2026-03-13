@@ -29,17 +29,17 @@ function StatCard({
       radius="lg"
       className="border border-slate-200 bg-white/90 backdrop-blur-sm"
     >
-      <CardBody className="p-5">
-        <div className="flex items-start justify-between gap-4">
-          <div className="min-w-0">
-            <div className="text-sm font-medium text-slate-500">{title}</div>
-            <div className="mt-3 text-2xl font-semibold tracking-tight text-slate-900">
+      <CardBody className="p-4 sm:p-5">
+        <div className="flex items-start justify-between gap-3 sm:gap-4">
+          <div className="min-w-0 flex-1">
+            <div className="text-xs sm:text-sm font-medium text-slate-500">{title}</div>
+            <div className="mt-2 sm:mt-3 text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
               {value}
             </div>
-            {hint && <div className="mt-2 text-xs text-slate-500">{hint}</div>}
+            {hint && <div className="mt-1.5 sm:mt-2 text-xs text-slate-500">{hint}</div>}
           </div>
 
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-slate-100 text-slate-700 ring-1 ring-slate-200">
+          <div className="flex h-9 w-9 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-xl sm:rounded-2xl bg-slate-100 text-slate-700 ring-1 ring-slate-200">
             {icon}
           </div>
         </div>
@@ -67,7 +67,7 @@ function SummaryPill({
   return (
     <div
       className={[
-        "inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm",
+        "inline-flex items-center gap-1.5 sm:gap-2 rounded-full px-2.5 sm:px-3 py-1.5 sm:py-2 text-xs sm:text-sm",
         toneClass,
       ].join(" ")}
     >
@@ -83,19 +83,19 @@ export default function DashboardPage() {
 
   return (
     <Container>
-      <div className="my-8 space-y-8">
-        <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+      <div className="my-4 sm:my-6 lg:my-8 space-y-4 sm:space-y-6 lg:space-y-8 px-3 sm:px-4 lg:px-0">
+        <div className="flex flex-col gap-3 sm:gap-4 md:flex-row md:items-end md:justify-between">
           <div>
-            <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
+            <h1 className="text-xl sm:text-2xl font-semibold tracking-tight text-slate-900">
               Хянах самбар
             </h1>
-            <p className="mt-1 text-sm text-slate-500">
+            <p className="mt-1 text-xs sm:text-sm text-slate-500">
               Орлого, захиалга болон сүүлийн гүйлгээнүүдийн ерөнхий тойм
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 sm:gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <StatCard
             title="Яг одоо байгаа жуулчин"
             value={
@@ -150,13 +150,13 @@ export default function DashboardPage() {
           radius="lg"
           className="border border-slate-200 bg-white/90 backdrop-blur-sm"
         >
-          <CardBody className="p-5 md:p-6">
-            <div className="flex flex-col gap-4 border-b border-slate-100 pb-5 md:flex-row md:items-center md:justify-between">
+          <CardBody className="p-4 sm:p-5 md:p-6">
+            <div className="flex flex-col gap-3 sm:gap-4 border-b border-slate-100 pb-4 sm:pb-5 md:flex-row md:items-center md:justify-between">
               <div>
-                <div className="text-lg font-semibold text-slate-900">
+                <div className="text-base sm:text-lg font-semibold text-slate-900">
                   Гүйлгээний түүх
                 </div>
-                <div className="mt-1 text-sm text-slate-500">
+                <div className="mt-1 text-xs sm:text-sm text-slate-500">
                   {MOCK_TRANSACTIONS.length} гүйлгээ бүртгэгдсэн байна
                 </div>
               </div>
